@@ -14,9 +14,31 @@
                 </h1>
             </v-col>
           </v-row>
+          <v-row align="center" justify="center">
+            <v-col cols="12" md="8" align="center" justify="center">
+              <quote
+                quote="
+The line separating good and evil passes not through states, nor between classes, nor between political parties either - but right through every human heart."
+                attributionName="Aleksandr Solzhenitsyn"
+                attributionDetails="The Gulag Archipelago"
+              />
+            </v-col>
+          </v-row>
         </v-col>
       </v-row>
     </v-container>
   </section>
 </template>
 
+<script>
+import quote from '../components/Quote.vue'
+
+export default {
+  components: {
+    quote
+  },
+  data: () => ({
+    //
+  }),
+}
+</script>

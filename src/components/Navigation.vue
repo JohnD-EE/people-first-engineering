@@ -43,16 +43,18 @@
     <v-app-bar
       app
       flat
-      color="#FFF"
+      hide-on-scroll
     >
       <v-app-bar-nav-icon>
         <v-icon large>mdi-console-line</v-icon>
       </v-app-bar-nav-icon>
-      <v-app-bar-title>PEOPLE FIRST ENGINEERING <v-chip
-      class="ma-2 mb-8"
-      x-small
-      label
-    >
+      <v-app-bar-title>
+          <span>PEOPLE FIRST ENGINEERING</span>
+          <v-chip
+            class="ma-2 mb-8"
+            x-small
+            label
+        >
       v0.0.1
     </v-chip></v-app-bar-title>
       <v-spacer />
