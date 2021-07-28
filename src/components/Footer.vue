@@ -10,8 +10,9 @@
           :href="icon.link"
           target="_blank"
           icon
+          large
         >
-          <v-icon size="32px">{{ icon.text }}</v-icon>
+          <v-icon large>{{ icon.text }}</v-icon>
         </v-btn>
       </v-card-text>
 
