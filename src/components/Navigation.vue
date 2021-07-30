@@ -68,6 +68,9 @@
           <span ><router-link to="/" class="no-underline">Home</router-link></span>
         </v-btn>
         <v-btn rounded text class="ma-1">
+          <span><router-link to="/tools" class="no-underline">Tools</router-link></span>
+        </v-btn>
+        <v-btn rounded text class="ma-1">
           <span><router-link to="/about" class="no-underline">About</router-link></span>
         </v-btn>
         <v-btn rounded outlined text class="ma-1">

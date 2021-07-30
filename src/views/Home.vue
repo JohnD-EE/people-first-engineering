@@ -46,17 +46,27 @@
                 </v-card>
               </v-hover>
             </v-col>
-
-
-
               </v-row>
+                <v-row align="center" justify="center" class="pt-15 pb-15">
+                  <v-col cols="12" md="8" align="center" justify="center">
+                    <v-img
+                    src="@/assets/IceWaterSteam.jpg"
+                    height="173"
+                  ></v-img>
+                <p class="mt-10">Just as water takes different forms according to context, so do humans. We are all 
+                capable of the good, the bad, and the ugly.</p>
+                <p>We can create the conditions for the best parts of ourselves to emerge, and the worst 
+                  parts to be quietened.
+                </p>
+              </v-col>
+            </v-row>
             </v-col>
           </v-row>
           <v-row align="center" justify="center" class="pt-15 pb-15">
             <v-col cols="12" md="8" align="center" justify="center">
-              <h1 class="font-weight-regular pb-5">Standards, patterns, models and tools:</h1>
+              <h1 class="font-weight-regular pb-5">Standards, protocols, patterns, models and tools:</h1>
               <p class="body-1 font-weight-regular">People First Engineering will provide resources to support Engineers in Software, QA, DevOps and other technical domains as well as managers and others in the wider ecosystem.</p>
-              <p class="body-1 font-weight-regular">The Software Engineering industry recognises the value of standards based development, a cohesive way of doing things with code for simplicity, interoperability, and consistency. But it is people who build software and our human Operating Systems, APIs, Error Logging and UIs are far from standardised - and we wouldn't want them to be!.</p>
+              <p class="body-1 font-weight-regular">The Software Engineering industry recognises the value of standards based development, a cohesive way of doing things with code for simplicity, interoperability, and consistency. But it is people who build software and our human Operating Systems, APIs, Error Logging and UIs are far from standardised - and we wouldn't want them to be!</p>
               <p class="body-1 font-weight-regular">Through a suite of standards, patterns, principles, models, tools, and thought pieces, the aim of People First Engineering is to make more sense of the messy world of people, relationships, and organisations to create ecosystems where we can thrive.</p>
             </v-col>
           </v-row>

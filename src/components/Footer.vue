@@ -1,5 +1,5 @@
 <template>
-  <v-footer padless class="mb-15">
+  <v-footer padless bottom class="mb-15">
     <v-card flat tile class="text-center">
         <v-divider></v-divider>
       <v-card-text class="pt-15">
