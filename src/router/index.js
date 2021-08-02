@@ -27,7 +27,17 @@ const routes = [
     path: '/tools',
     name: 'Tools',
     component: () => import('../views/Tools.vue')
-  }
+  },
+  {
+    path: '/protocols',
+    name: 'Protocols',
+    component: () => import('../views/Protocols.vue')
+  },
+  {
+    path: '/models',
+    name: 'Models',
+    component: () => import('../views/Models.vue')
+  },
 ]
 
 const router = new VueRouter({

@@ -44,12 +44,23 @@
       app
       flat
       hide-on-scroll
+      color="#f5f5f5"
     >
       <v-app-bar-nav-icon>
-        <v-icon large>mdi-console-line</v-icon>
+          <router-link
+          class="no-underline"
+            to="/"
+      >
+        <v-icon class="secondary--text" large>mdi-console-line</v-icon>
+        </router-link>
       </v-app-bar-nav-icon>
       <v-app-bar-title>
+          <router-link
+            class="no-underline"
+            to="/"
+      >
           <span>PEOPLE FIRST ENGINEERING</span>
+          </router-link>
           <v-chip
             class="ma-2 mb-8"
             x-small
@@ -64,18 +75,36 @@
         v-if="isXs"
       />
       <div v-else>
+          <v-toolbar-items>
+        <router-link to="/protocols" class="no-underline">
         <v-btn rounded text class="ma-1">
-          <span ><router-link to="/" class="no-underline">Home</router-link></span>
+          <span>Protocols</span>
         </v-btn>
+        </router-link>
+        <router-link to="/models" class="no-underline">
         <v-btn rounded text class="ma-1">
-          <span><router-link to="/tools" class="no-underline">Tools</router-link></span>
+          <span>models</span>
         </v-btn>
+        </router-link>
+        <router-link to="/tools" class="no-underline">
         <v-btn rounded text class="ma-1">
-          <span><router-link to="/about" class="no-underline">About</router-link></span>
+          <span>Tools</span>
         </v-btn>
+        </router-link>
+
+        <v-divider vertical class="mx-2"></v-divider>
+
+        <router-link to="/about" class="no-underline">
+        <v-btn rounded text class="ma-1">
+          <span>About</span>
+        </v-btn>
+        </router-link>
+        <router-link to="/services" class="no-underline">
         <v-btn rounded outlined text class="ma-1">
-          <span><router-link to="/services" class="no-underline">Services</router-link></span>
+          <span>Services</span>
         </v-btn>
+        </router-link>
+        </v-toolbar-items>
       </div>
       
     </v-app-bar>

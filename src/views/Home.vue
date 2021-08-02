@@ -113,13 +113,13 @@ export default {
           img: require("@/assets/logo.png"),
           title: "The Good",
           color: "secondary",
-          text: "At times we can be brilliant. We are calm, kind, thoughtful, energetic, curious, assertive, inspirational, resilient, helpful, creative, attentitve, engaging, resourceful, conscientious, confident, dilligent, visionary, productive, skillful, and inventive.",
+          text: "At times we can be brilliant. We are calm, kind, thoughtful, energetic, curious, assertive, inspirational, resilient, helpful, trusting, creative, attentitve, engaging, resourceful, conscientious, confident, dilligent, visionary, productive, skillful, and inventive.",
         },
         {
           img: require("@/assets/logo.png"),
           title: "The not so good",
           color: "primary",
-          text: "We can also be angry, destructive, intolerent, beligerent, anxious, conceited, bored, manipulative, scared, stressed, judgemental, apathetic, lazy, disruptive, depressed, nasty, spiteful, cruel, lost, vindictive, hopeless, envious, and frustrated.",
+          text: "We can also be angry, destructive, intolerent, beligerent, anxious, conceited, bored, manipulative, scared, stressed, judgemental, apathetic, treacherous, lazy, disruptive, depressed, nasty, spiteful, cruel, lost, vindictive, hopeless, envious, and frustrated.",
         }
       ],
   }),
