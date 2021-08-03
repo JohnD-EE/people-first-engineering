@@ -100,8 +100,6 @@
         </v-btn>
         </router-link>
 
-        
-        
     <v-menu
         offset-y
         open-on-hover
@@ -128,9 +126,6 @@
         </v-list-item>
       </v-list>
     </v-menu>
-  
-
-
 
         <router-link to="/services" class="no-underline">
         <v-btn rounded outlined text class="ma-1">
