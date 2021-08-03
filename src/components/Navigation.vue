@@ -95,10 +95,43 @@
         <v-divider vertical class="mx-2"></v-divider>
 
         <router-link to="/about" class="no-underline">
-        <v-btn rounded text class="ma-1">
+        <v-btn rounded text class="ma-1" >
           <span>About</span>
         </v-btn>
         </router-link>
+
+        
+        
+    <v-menu
+        offset-y
+        open-on-hover
+        close-delay="400">
+      <template v-slot:activator="{ on, attrs }">
+          <router-link to="/about" class="no-underline">
+        <v-btn
+          rounded
+          text
+          class="ma-1" 
+          v-bind="attrs"
+          v-on="on"
+        >
+          Thinking <v-icon>mdi-chevron-down</v-icon>
+        </v-btn>
+        </router-link>
+      </template>
+      <v-list>
+        <v-list-item
+          v-for="(item, index) in dropdownItems"
+          :key="index"
+        >
+          <v-list-item-title>{{ item.title }}</v-list-item-title>
+        </v-list-item>
+      </v-list>
+    </v-menu>
+  
+
+
+
         <router-link to="/services" class="no-underline">
         <v-btn rounded outlined text class="ma-1">
           <span>Services</span>
@@ -132,6 +165,10 @@
 <script>
 export default {
   data: () => ({
+      dropdownItems: [
+        { title: 'Blogs' },
+        { title: 'Podcasts' }
+      ],
     drawer: null,
     isXs: false,
     items: [
