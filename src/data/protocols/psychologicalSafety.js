@@ -23,7 +23,7 @@ const protocol = {
 */
 
 const protocol = {
-    name: 'Psychological Saftey',
+    name: 'Psychological Safety',
     keyName: 'psychologicalSafety',
     intent: [
         'The intent is to provide an environment where conventions may be challenged, difficult questions may be asked, and where one\'s status is not a factor in the pursuit of truth. It provides a secure environment for taking risks, for trying and failing if necessary in the pursuit of a worthy goal.'
@@ -42,7 +42,7 @@ const protocol = {
         {
             name: 'Questioning Others',
             paragraphs: [
-                'Psychological Saftey MUST NOT be used as an excuse to be rude or disrespectful'
+                'Psychological Safety MUST NOT be used as an excuse to be rude or disrespectful'
             ]
         },
     ],

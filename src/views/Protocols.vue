@@ -1,14 +1,14 @@
 <template>
   <section id="protocols">
-    <v-container fluid class="pb-15 ">
+    <v-container fluid class="pb-15">
       <v-row align="center" justify="center">
-        <v-col cols="12" md="2">
-          <docsMenu :data="menuData"></docsMenu>
+        <v-col cols="12" md="3">
+          <docsMenu :data="menuData" @protocolChange="onProtocolChange"></docsMenu>
         </v-col>
-        <v-col cols="12" md="8">
+        <v-col cols="12" md="6">
           <docsMain :data="mainData"></docsMain>
         </v-col>
-        <v-col cols="12" md="2">
+        <v-col cols="12" md="3">
           <docsSections :data="sectionsData"></docsSections>
         </v-col>
       </v-row>
@@ -45,7 +45,7 @@ export default {
       return ''
     },
     menuData () {
-      return this.keys
+      return this.keys.data
     },
     mainData () {
       console.log('selectedProtocolData', this.selectedProtocolData.keyName)
@@ -58,10 +58,15 @@ export default {
           return this.change
         default:
           return ''
-}
+      }
     },
     sectionsData () {
       return ''
+    }
+  },
+  methods: {
+    onProtocolChange (newRef) {
+      this.selectedRef = newRef
     }
   }
 }
