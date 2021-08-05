@@ -91,6 +91,7 @@
           </v-row>
         </v-col>
       </v-row>
+      <foot/>
     </v-container>
   </section>
 </template>
@@ -104,10 +105,12 @@ h3 {
 
 <script>
 import quote from '../components/Quote.vue'
+import foot from '../components/Footer.vue'
 
 export default {
   components: {
-    quote
+    quote,
+    foot
   },
   data: () => ({
     deliverables: [

@@ -110,6 +110,7 @@ I didn't get where I am today without knowing there's no fun in getting where I 
           </v-row>
         </v-col>
       </v-row>
+      <foot/>
     </v-container>
   </section>
 </template>
@@ -121,11 +122,13 @@ h3 {
 </style>
 
 <script>
+import foot from '../components/Footer.vue'
 import quote from '../components/Quote.vue'
 
 export default {
   components: {
-    quote
+    quote,
+    foot
   },
   data: () => ({
     //

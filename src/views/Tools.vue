@@ -35,7 +35,7 @@
                   states you had during the last sprint or a recent bout of work. Were you mostly in 
                   FLOW or did constant interruptions and time pressures put you in a state of anxiety?</p>
                   <p>
-                    This tool will be based on the ideas in this article at: 
+                    The tool will be based on the ideas in this article at: 
                     <a href="https://purplelabs.eagleeye.com/blog/triggering-the-flow-state-for-software-engineers">Triggering the Flow State in Software Engineers</a>
                   </p>
                   <h3>
@@ -93,6 +93,7 @@
           </v-row>
         </v-col>
       </v-row>
+      <foot/>
     </v-container>
   </section>
 </template>
@@ -104,11 +105,13 @@ h3 {
 </style>
 
 <script>
+import foot from '../components/Footer.vue'
 import quote from '../components/Quote.vue'
 
 export default {
   components: {
-    quote
+    quote,
+    foot
   },
   data: () => ({
     //

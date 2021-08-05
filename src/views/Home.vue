@@ -62,7 +62,7 @@
             </v-row>
             </v-col>
           </v-row>
-          <v-row align="center" justify="center" class="pt-15 pb-15">
+          <v-row align="center" justify="center" class="">
             <v-col cols="12" md="8" align="center" justify="center">
               <h1 class="font-weight-regular pb-5">Standards, protocols, patterns, models and tools:</h1>
               <p class="body-1 font-weight-regular">People First Engineering will provide resources to support Engineers in Software, QA, DevOps and other technical domains as well as managers and others in the wider ecosystem.</p>
@@ -82,6 +82,8 @@ The line separating good and evil passes not through states, nor between classes
           </v-row>
         </v-col>
       </v-row>
+      
+          <foot/>
     </v-container>
   </section>
 </template>
@@ -101,11 +103,13 @@ The line separating good and evil passes not through states, nor between classes
 </style>
 
 <script>
+import foot from '../components/Footer.vue'
 import quote from '../components/Quote.vue'
 
 export default {
   components: {
-    quote
+    quote,
+    foot
   },
   data: () => ({
     features: [

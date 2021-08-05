@@ -1,9 +1,10 @@
 <template>
     <div>
-        <v-row>
-            <v-col cols="12">                
-                <v-list dense shaped>
-      <v-subheader>PROTOCOLS</v-subheader>
+        <v-row align="start" justify="start">
+            <v-col cols="12">
+                <v-navigation-drawer floating style="top: 65px">             
+                <v-list dense shaped nav>
+      <v-subheader  class="primary--text font-weight-bold">PROTOCOLS</v-subheader>
       <v-list-item-group
         v-model="selectedItem"
         color="secondary"
@@ -18,7 +19,7 @@
         </v-list-item>
       </v-list-item-group>
     </v-list>
- 
+ </v-navigation-drawer>  
             </v-col>
         </v-row>
     </div>

@@ -1,6 +1,8 @@
 const protocol = {
     name: 'Change',
-    keyName: 'change',
+    ref: 'PFE-2',
+    keyName: 'change',    
+    status: 'draft',
     intent: [
         'The intent of a People First approach to change is to accept change as a potentially painful, but inevitable and naturally occuring phenomina in all realms of life',
         'People react differently to different change so the aim is to diminish the difficult and painful aspects of change, while optimising for the opportunities it presents.',
@@ -17,9 +19,7 @@ const protocol = {
     ],
     conclusions: [],
     appendix: [],
-    resources: [
-        { description: '', site: '', url: ''}
-    ],
+    resources: [],
     acknowledgements: []
 }
 
