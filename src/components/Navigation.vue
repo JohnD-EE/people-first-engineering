@@ -43,7 +43,6 @@
     <v-app-bar
       app
       flat
-      hide-on-scroll
       color="#f5f5f5"
     >
       <v-app-bar-nav-icon>
@@ -105,7 +104,7 @@
         open-on-hover
         close-delay="400">
       <template v-slot:activator="{ on, attrs }">
-          <router-link to="/about" class="no-underline">
+          <router-link to="/blogs" class="no-underline">
         <v-btn
           rounded
           text
@@ -121,6 +120,8 @@
         <v-list-item
           v-for="(item, index) in dropdownItems"
           :key="index"
+          :to="item.to"
+            router
         >
           <v-list-item-title>{{ item.title }}</v-list-item-title>
         </v-list-item>
@@ -161,8 +162,8 @@
 export default {
   data: () => ({
       dropdownItems: [
-        { title: 'Blogs' },
-        { title: 'Podcasts' }
+        { title: 'Blogs', to: '/blogs' },
+        { title: 'Podcasts', to: '/podcasts' }
       ],
     drawer: null,
     isXs: false,

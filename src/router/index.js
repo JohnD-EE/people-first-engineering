@@ -34,10 +34,20 @@ const routes = [
     component: () => import('../views/Protocols.vue')
   },
   {
+    path: '/blogs',
+    name: 'Blogs',
+    component: () => import('../views/Blogs.vue')
+  },
+  {
+    path: '/podcasts',
+    name: 'BPodcasts',
+    component: () => import('../views/Podcasts.vue')
+  },
+  {
     path: '/models',
     name: 'Models',
     component: () => import('../views/Models.vue')
-  },
+  }
 ]
 
 const router = new VueRouter({

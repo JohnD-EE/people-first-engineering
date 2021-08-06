@@ -15,6 +15,14 @@
                     >{{item.status}}
                     </v-chip>
                 </p>
+                <v-alert
+                    outlined
+                    type="warning"
+                    prominent
+                    border="left"
+                    >
+                    The protocols here are currently in very early DRAFT status and will be subject to considerable revision until reviewed and approved.
+                    </v-alert>
                 <div v-if="item.intent.length">
                 <h3 id="intent">
                     Intent
