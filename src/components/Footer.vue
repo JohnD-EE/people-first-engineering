@@ -19,7 +19,7 @@
         {{ new Date().getFullYear() }} — <strong>PEOPLE FIRST ENGINEERING</strong>
       </v-card-text>
       <v-card-text class=" pt-0">
-        <p>Designing optimal Software Engineering environments to feed the hunger of the human spirit inside every Engineer.</p>
+        <p>Designing optimal Software Engineering environments to feed the hunger of the human spirit inside every engineer.</p>
       </v-card-text>
     </v-card>
   </v-footer>

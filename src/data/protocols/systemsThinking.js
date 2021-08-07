@@ -1,5 +1,6 @@
 const protocol = {
     name: 'Systems Thinking',
+    ref: 'PFE-4',
     keyName: 'systemsThinking',
     status: 'draft', //draft, review, accepted, deprecated, abandoned
     intent: [], //why is this needed

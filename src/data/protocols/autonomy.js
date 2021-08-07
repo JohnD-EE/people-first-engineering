@@ -1,5 +1,6 @@
 const protocol = {
     name: 'Autonomy',
+    ref: 'PFE-13',
     keyName: 'autonomy',
     status: 'draft', //draft, review, accepted, deprecated, abandoned
     intent: [], //why is this needed

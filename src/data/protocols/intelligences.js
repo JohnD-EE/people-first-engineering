@@ -1,6 +1,7 @@
 const protocol = {
-    name: 'Collective Intelligence',
-    keyName: 'collectiveIntelligence',
+    name: 'Intelligences',
+    ref: 'PFE-16',
+    keyName: 'intelligences',
     status: 'draft', //draft, review, accepted, deprecated, abandoned
     intent: [], //why is this needed
     definitions: [], //nothing should be ambiguous

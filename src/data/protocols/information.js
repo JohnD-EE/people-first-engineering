@@ -1,6 +1,7 @@
 const protocol = {
-    name: 'Hierarchy',
-    keyName: 'Hierarchy',
+    name: 'Information',
+    ref: 'PFE-7',
+    keyName: 'information',
     status: 'draft', //draft, review, accepted, deprecated, abandoned
     intent: [], //why is this needed
     definitions: [], //nothing should be ambiguous

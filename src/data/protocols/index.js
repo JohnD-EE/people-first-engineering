@@ -16,10 +16,10 @@ const data = [
         listPosition: 20
     },
     {
-        name: 'Trust',
-        keyName: 'trust',
+        name: 'Leadership',
+        keyName: 'leadership',
         category: '',
-        file: 'trust.js',
+        file: 'leadership.js',
         ref: 'PFE-3',
         listPosition: 30
     },
@@ -35,7 +35,7 @@ const data = [
         name: 'Sense Making',
         keyName: 'senseMaking',
         category: '',
-        file: 'enseMaking.js',
+        file: 'senseMaking.js',
         ref: 'PFE-5',
         listPosition: 50
     },
@@ -43,15 +43,15 @@ const data = [
         name: 'Decisions',
         keyName: 'decisions',
         category: '',
-        file: 'ecisions.js',
+        file: 'decisions.js',
         ref: 'PFE-6',
         listPosition: 60
     },
     {
-        name: 'Information Flows',
-        keyName: 'informationFlows',
+        name: 'Information',
+        keyName: 'information',
         category: '',
-        file: 'nformationFlows.js',
+        file: 'information.js',
         ref: 'PFE-7',
         listPosition: 70
     },
@@ -120,10 +120,10 @@ const data = [
         listPosition: 150
     },
     {
-        name: 'Collective Intelligence',
-        keyName: 'collectiveIntelligence',
+        name: 'Intelligences',
+        keyName: 'intelligences',
         category: '',
-        file: 'collectiveIntelligence.js',
+        file: 'intelligences.js',
         ref: 'PFE-16',
         listPosition: 160
     },
@@ -152,10 +152,10 @@ const data = [
         listPosition: 190
     },
     {
-        name: 'Hierarchy',
-        keyName: 'hierarchy',
+        name: 'Power',
+        keyName: 'power',
         category: '',
-        file: 'ierarchy.js',
+        file: 'power.js',
         ref: 'PFE-20',
         listPosition: 200
     },
@@ -168,10 +168,10 @@ const data = [
         listPosition: 210
     },
     {
-        name: 'Leadership',
-        keyName: 'leadership',
+        name: 'Trust',
+        keyName: 'trust',
         category: '',
-        file: 'leadership.js',
+        file: 'trust.js',
         ref: 'PFE-22',
         listPosition: 220
     }

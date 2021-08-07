@@ -25,8 +25,29 @@ import docsMenu from '../components/DocsMenu.vue'
 import docsSections from '../components/DocsSections.vue'
 import foot from '../components/Footer.vue'
 import keys from '../data/protocols/index.js'
-import psychologicalSafety from '../data/protocols/psychologicalSafety.js'
+import autonomy from '../data/protocols/autonomy.js'
 import change from '../data/protocols/change.js'
+import conflict from '../data/protocols/conflict.js'
+import control from '../data/protocols/control.js'
+import decisions from '../data/protocols/decisions.js'
+import diversity from '../data/protocols/diversity.js'
+import flow from '../data/protocols/flow.js'
+import growth from '../data/protocols/growth.js'
+import information from '../data/protocols/information.js'
+import intelligences from '../data/protocols/intelligences.js'
+import leadership from '../data/protocols/leadership.js'
+import learning from '../data/protocols/learning.js'
+import mastery from '../data/protocols/mastery.js'
+import narrative from '../data/protocols/narrative.js'
+import power from '../data/protocols/power.js'
+import psychologicalSafety from '../data/protocols/psychologicalSafety.js'
+import quality from '../data/protocols/quality.js'
+import relatedness from '../data/protocols/relatedness.js'
+import senseMaking from '../data/protocols/senseMaking.js'
+import systemsThinking from '../data/protocols/systemsThinking.js'
+import trust from '../data/protocols/trust.js'
+import wellbeing from '../data/protocols/wellbeing.js'
+
 
 export default {
   components: {
@@ -38,8 +59,28 @@ export default {
   data: () => ({
     keys: keys,
     selectedRef: 'PFE-1',
+    autonomy: autonomy,
+    change: change,
+    intelligences: intelligences,
+    conflict: conflict,
+    control: control,
+    decisions: decisions,
+    diversity: diversity,
+    flow: flow,
+    growth: growth,
+    information: information,
+    leadership: leadership,
+    learning: learning,
+    mastery: mastery,
+    narrative: narrative,
+    power: power,
     psychologicalSafety: psychologicalSafety,
-    change: change
+    quality: quality,
+    relatedness: relatedness,
+    senseMaking: senseMaking,
+    systemsThinking: systemsThinking,
+    trust: trust,
+    wellbeing: wellbeing
   }),
   computed: {
     selectedProtocolData () {
@@ -54,6 +95,9 @@ export default {
     },
     mainData () {
       const keyName = this.selectedProtocolData.keyName || ''
+      return this[keyName] || []
+      /*
+      const keyName = this.selectedProtocolData.keyName || ''
       let data = []
       switch(keyName) {
         case 'psychologicalSafety':
@@ -66,6 +110,7 @@ export default {
           data = []
       }
       return data
+      */
     },
     sectionsData () {
       let sectionHeadings = []

@@ -2,12 +2,13 @@
     <div>
         <v-row align="start" justify="start">
             <v-col cols="12">
-                <v-navigation-drawer floating style="top: 65px">             
+                <v-navigation-drawer fixed floating style="top: 65px">             
                 <v-list dense shaped nav>
       <v-subheader  class="primary--text font-weight-bold">PROTOCOLS</v-subheader>
       <v-list-item-group
         v-model="selectedItem"
         color="secondary"
+         class="mb-15 pb-15"
       >
         <v-list-item
           v-for="(item, i) in data"

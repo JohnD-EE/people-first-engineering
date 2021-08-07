@@ -102,7 +102,7 @@
     <v-menu
         offset-y
         open-on-hover
-        close-delay="400">
+        close-delay="100">
       <template v-slot:activator="{ on, attrs }">
           <router-link to="/blogs" class="no-underline">
         <v-btn

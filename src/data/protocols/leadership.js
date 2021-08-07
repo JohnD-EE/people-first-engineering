@@ -1,5 +1,6 @@
 const protocol = {
     name: 'Leadership',
+    ref: 'PFE-3',
     keyName: 'leadership',
     status: 'draft', //draft, review, accepted, deprecated, abandoned
     intent: [], //why is this needed
