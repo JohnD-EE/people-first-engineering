@@ -4,7 +4,7 @@
             <v-col cols="12">
                 <v-navigation-drawer fixed floating style="top: 65px">             
                 <v-list dense shaped nav>
-      <v-subheader  class="primary--text font-weight-bold">PROTOCOLS</v-subheader>
+      <v-subheader  class="primary--text font-weight-bold">{{menuHeader}}</v-subheader>
       <v-list-item-group
         v-model="selectedItem"
         color="secondary"
@@ -15,7 +15,8 @@
           :key="i"
         >
           <v-list-item-content>
-            <v-list-item-title>{{item.ref}}: {{item.name}}</v-list-item-title>
+            <v-list-item-title>
+                <span v-if="type === 'protocol'">{{item.ref}}: </span>{{item.name}}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
       </v-list-item-group>
@@ -31,13 +32,22 @@ export default {
   data: () => ({
       selectedItem: 0
   }),
-    props: ['data'],
+    props: ['data', 'type'],
+    computed: {
+        menuHeader () {
+            return this.type.toUpperCase() + 'S'
+        }
+    },
+    methods: {
+        scrollToTop () {
+            window.scrollTo(0, 0)
+        }
+    },
     watch: {
         selectedItem (value) {
-            console.log('selected', value)
             const newRef = this.data[value].ref
-            console.log('newRef ', newRef )
-            this.$emit('protocolChange', newRef)
+            this.scrollToTop()
+            this.$emit('menuChange', newRef)
         }
     } 
 }

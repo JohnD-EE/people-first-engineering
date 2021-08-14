@@ -1,6 +1,7 @@
 /*
 const protocol = {
     name: '',
+    ref: '',
     keyName: '',
     status: '', //draft, review, accepted, deprecated, abandoned
     intent: [], //why is this needed
@@ -18,10 +19,14 @@ const protocol = {
     ],
     conclusions: [],
     appendix: [],
-    resources: [
+    references: [
         { description: '', site: '', url: ''}
     ],
     acknowledgements: []
+}
+
+export default {
+    protocol
 }
 */
 
@@ -53,7 +58,7 @@ const protocol = {
     ],
     conclusions: [],
     appendix: [],
-    resources: [],
+    references: [],
     acknowledgements: []
 }
 

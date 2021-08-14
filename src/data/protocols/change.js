@@ -19,7 +19,7 @@ const protocol = {
     ],
     conclusions: [],
     appendix: [],
-    resources: [],
+    references: [],
     acknowledgements: []
 }
 

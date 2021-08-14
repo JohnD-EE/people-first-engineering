@@ -1,8 +1,8 @@
-const protocol = {
-    name: 'Diversity',
-    ref: 'PFE-18',
-    keyName: 'diversity',
-    status: 'draft', //draft, review, accepted, deprecated, abandoned
+const model = {
+    name: 'Juggling Glass or Rubber Balls',
+    ref: 'jugglingGlassOrRubberBalls',
+    keyName: 'jugglingGlassOrRubberBalls',
+    status: 'draft', //draft, review, accepted
     intent: [], //why is this needed
     definitions: [], //nothing should be ambiguous
     overview: [], //context, big picture scenarios
@@ -16,12 +16,11 @@ const protocol = {
             name: 'Section 2',
         },
     ],
+    whenToUse: [],
     conclusions: [],
-    appendix: [],
-    references: [],
-    acknowledgements: []
+    references: []
 }
 
 export default {
-    protocol
+    model
 }

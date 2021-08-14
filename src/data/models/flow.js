@@ -1,0 +1,57 @@
+/*
+const model = {
+    name: '',
+    ref: '',
+    keyName: '',
+    status: 'draft', //draft, review, accepted
+    intent: [], //why is this needed
+    definitions: [], //nothing should be ambiguous
+    overview: [], //context, big picture scenarios
+    sections: [
+        {
+            name: 'Section 1',
+            paragraphs: [],
+            behaviourTable: {}
+        },
+        {
+            name: 'Section 2',
+        },
+    ],
+    conclusions: [],
+    references: [
+        { num: '', description: '', site: '', url: ''}
+    ]
+}
+
+export default {
+    model
+}
+*/
+
+const model = {
+    name: 'Flow',
+    ref: 'flow',
+    keyName: 'flow',
+    status: 'draft', //draft, review, accepted
+    intent: [], //why is this needed
+    definitions: [], //nothing should be ambiguous
+    overview: [], //context, big picture scenarios
+    sections: [
+        {
+            name: 'Section 1',
+            paragraphs: [],
+            behaviourTable: {}
+        },
+        {
+            name: 'Section 2',
+        },
+    ],
+    whenToUse: [],
+    conclusions: [],
+    references: [
+    ]
+}
+
+export default {
+    model
+}

@@ -3,10 +3,10 @@
     <v-container fluid class="pb-15">
       <v-row align="start" justify="start">
         <v-col cols="12" md="3">
-          <docsMenu :data="menuData" @protocolChange="onProtocolChange"></docsMenu>
+          <docsMenu :data="menuData" :type="type" @menuChange="onProtocolChange"></docsMenu>
         </v-col>
         <v-col cols="12" md="6">
-          <docsMain :data="mainData"></docsMain>
+          <docsMain :data="mainData" :type="type" :generalAlert="generalAlert"></docsMain>
           <foot/>
         </v-col>
         <v-col cols="12" md="3">
@@ -59,6 +59,8 @@ export default {
   data: () => ({
     keys: keys,
     selectedRef: 'PFE-1',
+    type: 'protocol',
+    generalAlert: 'The protocols here are currently in very early DRAFT status and will be subject to considerable revision until reviewed and approved.',
     autonomy: autonomy,
     change: change,
     intelligences: intelligences,
@@ -96,21 +98,6 @@ export default {
     mainData () {
       const keyName = this.selectedProtocolData.keyName || ''
       return this[keyName] || []
-      /*
-      const keyName = this.selectedProtocolData.keyName || ''
-      let data = []
-      switch(keyName) {
-        case 'psychologicalSafety':
-          data = this.psychologicalSafety
-          break
-        case 'change':
-          data = this.change
-          break
-        default:
-          data = []
-      }
-      return data
-      */
     },
     sectionsData () {
       let sectionHeadings = []
@@ -139,8 +126,8 @@ export default {
       if (content.appendix.length) {
         sectionHeadings.push('Appendix')
       }
-      if (content.resources.length) {
-        sectionHeadings.push('Resources')
+      if (content.references.length) {
+        sectionHeadings.push('References')
       }
       if (content.acknowledgements.length) {
         sectionHeadings.push('Acknowledgements')
