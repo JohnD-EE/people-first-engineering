@@ -1,7 +1,7 @@
 const model = {
     name: 'Build Systems Not Goals',
     ref: 'build-systems-not-goals',
-    keyName: 'build-systems-not-goals',
+    keyName: 'buildSystemsNotGoals',
     status: 'draft', //draft, review, accepted
     intent: [], //why is this needed
     definitions: [], //nothing should be ambiguous

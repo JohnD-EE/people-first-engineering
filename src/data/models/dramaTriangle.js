@@ -1,7 +1,7 @@
 const model = {
     name: 'Drama Triangle',
     ref: 'drama-triangle',
-    keyName: 'drama-triangle',
+    keyName: 'dramaTriangle',
     status: 'draft', //draft, review, accepted
     intent: [], //why is this needed
     definitions: [], //nothing should be ambiguous

@@ -84,6 +84,7 @@ const model = {
         {
             name: 'Strategies',
             paragraphs: [
+                {type: 'list', items: [
                 'Give people the benefit of the doubt',
                 'Make kind allowances',
                 'Assume people are doing their best',
@@ -98,7 +99,7 @@ const model = {
                 'Remember that Humans would not have survived in evolutionary psychology, without being wired for empathy.',
                 'Use your brain.  Challenge yourself to write down as many generous interpretations of the person\'s comms as possible.  Realise your own habitual patterns of thinking and responding. Be creative.',
                 'Dominance disputes are natural, be a detatched observer - if you feel defeated, use it as an opportunity for regrowth.',
-                'If you cannot resist the urge to respond in the moment, write out your response in a note pad.  write it to yourself, sit with it for a while, and delete it.',
+                'If you cannot resist the urge to respond in the moment, write out your response in a note pad.  write it to yourself, sit with it for a while, and then delete it.',
                 'Consider whether your feelings towards someone are Psychological Projection. When we see evil in others, we are often project the darker side of our own personality on them.  The line of good and evil runs through the heart of every man.',
                 'Remember that some people have a very clumsy style, or are simply sarcastic, or blunt, or just bad at expressing themselves. Try to distinguish clumsiness from genuine malevolence.',
                 'Be guided by Hanlon\'s law - "Never attribute to malice what can be explained by carelessness or stupidity"',
@@ -106,6 +107,8 @@ const model = {
                 'Resist the urge to share with others.  Gossiping is so tempting - look what she did to me - if you do need to share with others, do it in a constructive way - be descrete and constructive, seek advice and strategies rather than seeking to suprress or shame the other person.',
                 'Even silence or non-response from the other person can be interpreted as hostility, but consider the alternatives, assume the best.  Perhaps they are badly organised, perhaps they are overwhelmed, perhaps your email was treated as spam.',
                 'Even if you are sure your colleague has malicious intent, and is engaging in the worst sculduggery, respond as if you are giving the most respectful interpretation rather than creating a feedback loop which makes your life worse.'
+                ]
+            }
             ]
         }
 

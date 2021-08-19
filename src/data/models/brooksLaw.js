@@ -1,7 +1,7 @@
 const model = {
     name: 'Brooks\' Law',
     ref: 'brooks-law',
-    keyName: 'brooks-law',
+    keyName: 'brooksLaw',
     status: 'draft', //draft, review, accepted
     intent: [], //why is this needed
     definitions: [], //nothing should be ambiguous

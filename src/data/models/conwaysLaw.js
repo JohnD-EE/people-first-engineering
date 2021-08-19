@@ -1,7 +1,7 @@
 const model = {
-    name: 'Pareto Principle',
-    ref: 'pareto-principle',
-    keyName: 'paretoPrinciple',
+    name: 'Conway\'s Law',
+    ref: 'conways-law',
+    keyName: 'conways-law',
     status: 'draft', //draft, review, accepted
     intent: [], //why is this needed
     definitions: [], //nothing should be ambiguous

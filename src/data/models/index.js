@@ -9,7 +9,7 @@ const data = [
     },
     {
         name: 'Parent Adult Child',
-        keyName: 'parent-adult-child',
+        keyName: 'parentAdultChild',
         category: '',
         file: 'parentAdultChild.js',
         ref: 'parent-adult-child',
@@ -17,7 +17,7 @@ const data = [
     },
     {
         name: 'Drama Triangle',
-        keyName: 'drama-triangle',
+        keyName: 'dramaTriangle',
         category: '',
         file: 'dramaTriangle.js',
         ref: 'drama-triangle',
@@ -33,7 +33,7 @@ const data = [
     },
     {
         name: 'Brooks\' Law',
-        keyName: 'brooks-law',
+        keyName: 'brooksLaw',
         category: '',
         file: 'brooksLaw.js',
         ref: 'brooks-law',
@@ -41,7 +41,7 @@ const data = [
     },
     {
         name: 'Pareto Principle',
-        keyName: 'pareto-principle',
+        keyName: 'paretoPrinciple',
         category: '',
         file: 'paretoPrinciple.js',
         ref: 'pareto-principle',
@@ -49,7 +49,7 @@ const data = [
     },
     {
         name: 'Peter Principle',
-        keyName: 'peter-principle',
+        keyName: 'peterPrinciple',
         category: '',
         file: 'peterPrinciple.js',
         ref: 'peter-principle',
@@ -57,7 +57,7 @@ const data = [
     },
     {
         name: 'Build Systems Not Goals',
-        keyName: 'build-systems-not-goals',
+        keyName: 'buildSystemsNotGoals',
         category: '',
         file: 'buildSystemsNotGoals.js',
         ref: 'build-systems-not-goals',
@@ -70,6 +70,22 @@ const data = [
         file: 'jugglingGlassOrRubberBalls.js',
         ref: 'jugglingGlassOrRubberBalls',
         listPosition: 90
+    },
+    {
+        name: 'Chesterton\'s Fence',
+        keyName: 'chestertonsFence',
+        category: '',
+        file: 'chestertonsFence.js',
+        ref: 'chestertons-fence',
+        listPosition: 100
+    },
+    {
+        name: 'Conway\'s Law',
+        keyName: 'conwaysLaw',
+        category: '',
+        file: 'conwaysLaw.js',
+        ref: 'conways-law',
+        listPosition: 110
     },
     
 ]

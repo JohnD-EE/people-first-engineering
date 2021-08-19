@@ -1,7 +1,7 @@
 const model = {
     name: 'First Principles',
     ref: 'first-principles',
-    keyName: 'first-principles',
+    keyName: 'firstPrinciples',
     status: 'draft', //draft, review, accepted
     intent: [], //why is this needed
     definitions: [], //nothing should be ambiguous

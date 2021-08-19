@@ -26,7 +26,15 @@ import keys from '../data/models/index.js'
 import mri from '../data/models/mri.js'
 import flow from '../data/models/flow.js'
 import jugglingGlassOrRubberBalls from '../data/models/jugglingGlassOrRubberBalls.js'
-jugglingGlassOrRubberBalls
+import brooksLaw from '../data/models/brooksLaw.js'
+import buildSystemsNotGoals from '../data/models/buildSystemsNotGoals.js'
+import chestertonsFence from '../data/models/chestertonsFence.js'
+import conwaysLaw from '../data/models/brooksLaw.js'
+import dramaTriangle from '../data/models/dramaTriangle.js'
+import firstPrinciples from '../data/models/firstPrinciples.js'
+import parentAdultChild from '../data/models/parentAdultChild.js'
+import paretoPrinciple from '../data/models/paretoPrinciple.js'
+import peterPrinciple from '../data/models/peterPrinciple.js'
 
 export default {
   components: {
@@ -41,7 +49,16 @@ export default {
     generalAlert: 'This website is still very young and the models here are a work in progress.',
     mri: mri,
     flow: flow,
-    jugglingGlassOrRubberBalls: jugglingGlassOrRubberBalls
+    jugglingGlassOrRubberBalls: jugglingGlassOrRubberBalls,
+    brooksLaw: brooksLaw,
+    buildSystemsNotGoals: buildSystemsNotGoals,
+    chestertonsFence: chestertonsFence,
+    conwaysLaw: conwaysLaw,
+    dramaTriangle:dramaTriangle,
+    firstPrinciples: firstPrinciples,
+    parentAdultChild: parentAdultChild,
+    paretoPrinciple: paretoPrinciple,
+    peterPrinciple: peterPrinciple
   }),
   computed: {
     selectedModelData () {

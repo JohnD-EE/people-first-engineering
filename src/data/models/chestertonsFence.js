@@ -1,7 +1,7 @@
 const model = {
-    name: 'Pareto Principle',
-    ref: 'pareto-principle',
-    keyName: 'paretoPrinciple',
+    name: 'Chesterton\'s Fence',
+    ref: 'chestertons-fence',
+    keyName: 'chestertonsFence',
     status: 'draft', //draft, review, accepted
     intent: [], //why is this needed
     definitions: [], //nothing should be ambiguous

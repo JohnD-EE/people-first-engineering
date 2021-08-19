@@ -1,7 +1,7 @@
 const model = {
     name: 'Parent Adult Child',
     ref: 'parent-adult-child',
-    keyName: 'parent-adult-child',
+    keyName: 'parentAdultChild',
     status: 'draft', //draft, review, accepted
     intent: [], //why is this needed
     definitions: [], //nothing should be ambiguous
