@@ -41,11 +41,11 @@ export default {
       },
       {
         text: "mdi-linkedin",
-        link: "",
+        link: "https://www.linkedin.com/company/people-first-engineering",
       },
       {
         text: "mdi-instagram",
-        link: "",
+        link: "https://www.instagram.com/peoplefirstengineering",
       },
       {
         text: "mdi-github",

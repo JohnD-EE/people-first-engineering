@@ -26,7 +26,7 @@
           v-for="([icon, text, link], i) in items"
           :key="i"
           link
-          @click="$vuetify.goTo(link)"
+          :href="link"
         >
           <v-list-item-icon class="justify-center">
             <v-icon>{{ icon }}</v-icon>
@@ -169,13 +169,13 @@ export default {
     drawer: null,
     isXs: false,
     items: [
-      ["mdi-home-outline", "Home", "#hero"],
-      ["mdi-clipboard-text-outline", "Protocols", "#protocols"],
-      ["mdi-toy-brick-outline", "Models", "#models"],
-      ["mdi-wrench-outline", "Tools", "#tools"],
-      ["mdi-information-outline", "About", "#about"],
-      ["mdi-pen", "Blogs", "#blogs"],
-      ["mdi-podcast", "Podcasts", "#podcasts"]
+      ["mdi-home-outline", "Home", "/",],
+      ["mdi-clipboard-text-outline", "Protocols", "/protocols"],
+      ["mdi-toy-brick-outline", "Models", "/models"],
+      ["mdi-wrench-outline", "Tools", "/tools"],
+      ["mdi-information-outline", "About", "about"],
+      ["mdi-pen", "Blogs", "/blogs"],
+      ["mdi-podcast", "Podcasts", "/podcasts"]
     ],
   }),
   methods: {
