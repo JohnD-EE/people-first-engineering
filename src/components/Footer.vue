@@ -15,6 +15,14 @@
           <v-icon large>{{ icon.text }}</v-icon>
         </v-btn>
       </v-card-text>
+      <v-card-text class="pt-0">Suscribe to the <span class="font-weight-bold secondary--text">People First Engineering</span> newsletter at<v-btn
+      small
+      color="secondary"
+      class="ma-2 white--text"
+      :href="substackUrl"
+    >
+      <span class="iconify" data-icon="simple-icons:substack"></span><span class="ml-1">Substack</span>
+    </v-btn></v-card-text>
       <v-card-text class="primary--text">
         {{ new Date().getFullYear() }} — <strong>PEOPLE FIRST ENGINEERING</strong>
       </v-card-text>
@@ -34,14 +42,15 @@
 <script>
 export default {
   data: () => ({
+      substackUrl: 'https://peoplefirstengineering.substack.com',
     icons: [
+        {
+        text: "mdi-linkedin",
+        link: "https://www.linkedin.com/company/people-first-engineering",
+      },
       {
         text: "mdi-youtube",
         link: "https://www.youtube.com/channel/UCMgH5jPhg-2dreKZXieuV5w",
-      },
-      {
-        text: "mdi-linkedin",
-        link: "https://www.linkedin.com/company/people-first-engineering",
       },
       {
         text: "mdi-instagram",
@@ -50,7 +59,7 @@ export default {
       {
         text: "mdi-github",
         link: "https://github.com/organizations/people-first-engineering",
-      },
+      }
     ],
   }),
 };
