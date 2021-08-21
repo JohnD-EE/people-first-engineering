@@ -9,9 +9,51 @@
                   Blogs:
                 </h1>
                 <p>Blogs will be used to provide greater depth into the protocols, principles, concepts, models and methodologies explored in People First Engineering.  Contributions from Sofware Engineers and other commentators will be encouraged.
-                </p> 
+                </p>
+                <p>Subscribe at <a href="https://peoplefirstengineering.substack.com/">Substack</a></p>
               </v-col>
           </v-row>
+
+        <v-row align="center" justify="center" class="pb-15">
+            <v-col cols="12" md="8" align="start" justify="center">
+              
+              <v-row align="stretch">
+              <v-col
+              cols="12"
+              sm="12"
+              class="text-left"
+              v-for="(item, i) in items"
+              :key="i"
+            >
+              <v-hover v-slot:default="{ hover }">
+                <v-card
+                  class="card pa-3"
+                  outlined
+                  :elevation="hover ? 2 : 0"
+                >
+                <v-card-text class="text-h5 secondary--text pb-0">{{ item.title }}</v-card-text>
+                <v-card-text class="pb-0">{{ item.subtitle }}</v-card-text>
+                <v-card-text>
+                    <p class="caption mb-0 font-weight-bold">By {{ item.author.toUpperCase() }}</p>
+                  <p class="caption mb-0">{{ item.date | moment("MMMM Do YYYY") }}</p>
+                </v-card-text>
+                  
+                  <v-card-actions>
+      <v-btn
+        color="secondary lighten-2"
+        text
+        :href="item.url" target="_blank"
+      >
+        Read More
+      </v-btn>
+    </v-card-actions>
+                </v-card>
+              </v-hover>
+            </v-col>
+              </v-row>
+            </v-col>
+          </v-row>
+
           <v-row align="center" justify="center">
             <v-col cols="12" md="8" align="center" justify="center">
               <quote
@@ -44,7 +86,9 @@ export default {
     foot
   },
   data: () => ({
-    //
+    items: [
+        { title: 'Protocols, models, and tools for a People First approach to Software Engineering.', subtitle: 'Re-engineering our work environments to put People First', author: 'John Durrant', date: '2021-08-17', url: 'https://peoplefirstengineering.substack.com/p/coming-soon' }
+    ]
   })
 }
 </script>

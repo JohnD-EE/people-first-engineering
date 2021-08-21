@@ -8,8 +8,10 @@
                 <h1>
                   Podcasts:
                 </h1>
-                <p>Podcasts will delve into many aspects of Software Engineering, typically taking the form of relaxed conversations with 'real' Engingeers.
+                <p>Podcasts will delve into many aspects of Software Engineering, typically taking the form of relaxed conversations with 'real' Engingeers looking at how they navigate the non-technical side of work.
                 </p>
+                <h3>Advertising:</h3>
+                <p>The podcasts will be free of annoying ads and promotions, with one exception. The only permitted advertising will be in the form of a story about what your organisation is doing to be 'People First'.</p>
               </v-col>
           </v-row>
           <v-row align="center" justify="center">

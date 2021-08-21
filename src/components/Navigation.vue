@@ -128,7 +128,7 @@
       </v-list>
     </v-menu>
 
-        <router-link to="/services" class="no-underline">
+        <router-link v-show="showServices" to="/services" class="no-underline">
         <v-btn rounded outlined text class="ma-1">
           <span>Services</span>
         </v-btn>
@@ -161,6 +161,7 @@
 <script>
 export default {
   data: () => ({
+      showServices: false, //configuration to show services in navigation
       dropdownItems: [
         { title: 'Blogs', to: '/blogs' },
         { title: 'Podcasts', to: '/podcasts' }
@@ -169,8 +170,12 @@ export default {
     isXs: false,
     items: [
       ["mdi-home-outline", "Home", "#hero"],
-      ["mdi-information-outline", "Contents", "#features"],
-      ["mdi-email-outline", "Contact", "#contact"],
+      ["mdi-clipboard-text-outline", "Protocols", "#protocols"],
+      ["mdi-toy-brick-outline", "Models", "#models"],
+      ["mdi-wrench-outline", "Tools", "#tools"],
+      ["mdi-information-outline", "About", "#about"],
+      ["mdi-pen", "Blogs", "#blogs"],
+      ["mdi-podcast", "Podcasts", "#podcasts"]
     ],
   }),
   methods: {
