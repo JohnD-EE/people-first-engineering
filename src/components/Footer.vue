@@ -36,8 +36,8 @@ export default {
   data: () => ({
     icons: [
       {
-        text: "mdi-twitter",
-        link: "",
+        text: "mdi-youtube",
+        link: "https://www.youtube.com/channel/UCMgH5jPhg-2dreKZXieuV5w",
       },
       {
         text: "mdi-linkedin",
@@ -49,7 +49,7 @@ export default {
       },
       {
         text: "mdi-github",
-        link: "",
+        link: "https://github.com/organizations/people-first-engineering",
       },
     ],
   }),
