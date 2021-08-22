@@ -1,7 +1,7 @@
 <template>
   <section id="protocols">
     <v-container fluid class="pb-15">
-      <v-row align="start" justify="start">
+      <v-row v-if="selectedRef" align="start" justify="start">
         <v-col cols="12" md="3">
           <docsMenu :data="menuData" :type="type" @menuChange="onProtocolChange"></docsMenu>
         </v-col>
@@ -13,6 +13,13 @@
           <docsSections :data="sectionsData"></docsSections>
         </v-col>
       </v-row>
+      <v-row v-else>
+        
+        <v-col cols="12">
+          <docsMainMenu :data="menuData" :type="type" @menuChange="onProtocolChange"></docsMainMenu>
+          <foot/>
+        </v-col>
+        </v-row>
       
     </v-container>
     
@@ -23,6 +30,7 @@
 import docsMain from '../components/DocsMain.vue'
 import docsMenu from '../components/DocsMenu.vue'
 import docsSections from '../components/DocsSections.vue'
+import docsMainMenu from '../components/DocsMainMenu.vue'
 import foot from '../components/Footer.vue'
 import keys from '../data/protocols/index.js'
 import autonomy from '../data/protocols/autonomy.js'
@@ -54,11 +62,12 @@ export default {
     docsMain,
     docsMenu,
     docsSections,
+    docsMainMenu,
     foot
   },
   data: () => ({
     keys: keys,
-    selectedRef: 'PFE-1',
+    selectedRef: null,
     type: 'protocol',
     generalAlert: 'The protocols here are currently in very early DRAFT status and will be subject to considerable revision until reviewed and approved.',
     autonomy: autonomy,

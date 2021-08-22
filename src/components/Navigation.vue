@@ -23,10 +23,11 @@
 
       <v-list dense>
         <v-list-item
-          v-for="([icon, text, link], i) in items"
+          v-for="([icon, text, link, pageReload], i) in items"
           :key="i"
           link
           :href="link"
+          @click="reload(pageReload)"
         >
           <v-list-item-icon class="justify-center">
             <v-icon>{{ icon }}</v-icon>
@@ -76,13 +77,13 @@
       <div v-else>
           <v-toolbar-items>
         <router-link to="/protocols" class="no-underline">
-        <v-btn rounded text class="ma-1">
+        <v-btn @click="reload(true)" rounded text class="ma-1">
           <span>Protocols</span>
         </v-btn>
         </router-link>
         <router-link to="/models" class="no-underline">
-        <v-btn rounded text class="ma-1">
-          <span>models</span>
+        <v-btn @click="reload(true)" rounded text class="ma-1">
+          <span>Models</span>
         </v-btn>
         </router-link>
         <router-link to="/tools" class="no-underline">
@@ -169,19 +170,24 @@ export default {
     drawer: null,
     isXs: false,
     items: [
-      ["mdi-home-outline", "Home", "/",],
-      ["mdi-clipboard-text-outline", "Protocols", "/protocols"],
-      ["mdi-toy-brick-outline", "Models", "/models"],
-      ["mdi-wrench-outline", "Tools", "/tools"],
-      ["mdi-information-outline", "About", "about"],
-      ["mdi-pen", "Blogs", "/blogs"],
-      ["mdi-podcast", "Podcasts", "/podcasts"]
+      ["mdi-home-outline", "Home", "/", false],
+      ["mdi-clipboard-text-outline", "Protocols", "/protocols", true],
+      ["mdi-toy-brick-outline", "Models", "/models", true],
+      ["mdi-wrench-outline", "Tools", "/tools", false],
+      ["mdi-information-outline", "About", "about", false],
+      ["mdi-pen", "Blogs", "/blogs", false],
+      ["mdi-podcast", "Podcasts", "/podcasts", false]
     ],
   }),
   methods: {
     onResize() {
-      this.isXs = window.innerWidth < 850;
+      this.isXs = window.innerWidth < 850
     },
+    reload(pageReload) {
+        if (pageReload) {
+            this.$router.go(this.$router.currentRoute)
+        }
+      }
   },
 
   watch: {

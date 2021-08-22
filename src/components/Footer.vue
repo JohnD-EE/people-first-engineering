@@ -15,9 +15,9 @@
           <v-icon large>{{ icon.text }}</v-icon>
         </v-btn>
       </v-card-text>
-      <v-card-text class="pt-0">Suscribe to the <span class="font-weight-bold secondary--text">People First Engineering</span> newsletter at<v-btn
+      <v-card-text class="pt-0">Subscribe to the <span class="font-weight-bold secondary--text">People First Engineering</span> newsletter at<v-btn
       small
-      color="secondary"
+      color="#ff6719"
       class="ma-2 white--text"
       :href="substackUrl"
     >
