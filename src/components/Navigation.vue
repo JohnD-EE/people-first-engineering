@@ -186,7 +186,7 @@ export default {
     reload(pageReload) {
         if (pageReload) {
             console.log('route', this.$router)
-            this.$router.go(this.$router.resolve)
+            //this.$router.go(this.$router.currentRoute)
         }
       }
   },
