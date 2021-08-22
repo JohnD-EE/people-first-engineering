@@ -27,7 +27,7 @@
           :key="i"
           link
           :href="link"
-          @click="reload(pageReload)"
+          @click="reload(pageReload, link)"
         >
           <v-list-item-icon class="justify-center">
             <v-icon>{{ icon }}</v-icon>
@@ -77,12 +77,12 @@
       <div v-else>
           <v-toolbar-items>
         <router-link to="/protocols" class="no-underline">
-        <v-btn @click="reload(true)" rounded text class="ma-1">
+        <v-btn @click="reload(true, '/protocols')" rounded text class="ma-1">
           <span>Protocols</span>
         </v-btn>
         </router-link>
         <router-link to="/models" class="no-underline">
-        <v-btn @click="reload(false)" rounded text class="ma-1">
+        <v-btn @click="reload(true, '/models')" rounded text class="ma-1">
           <span>Models</span>
         </v-btn>
         </router-link>
@@ -183,14 +183,15 @@ export default {
     onResize() {
       this.isXs = window.innerWidth < 850
     },
-    reload(pageReload) {
+    reload(pageReload, to) {
         if (pageReload) {
-            console.log('route', this.$router)
-            //this.$router.go(this.$router.currentRoute)
+            let path = this.$route.path
+            if (path === to) {
+                this.$router.go(this.$router.currentRoute)
+            }
         }
       }
   },
-
   watch: {
     isXs(value) {
       if (!value) {
