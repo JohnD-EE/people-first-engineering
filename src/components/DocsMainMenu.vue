@@ -1,12 +1,21 @@
 <template>
     <div>
         <v-row align="start" justify="center">
-            <v-col cols="6"> 
-                <h1 class="mt-5 mb-0 pb-0 display-1 font-weight-bold">
+            <v-col cols="6">
+                <span v-if="type === 'protocol'">
+            <h1 class="mt-5 mb-0 pb-0 display-1 font-weight-bold">
           Protocols
           </h1>  
           <p class="mb-15">Standards, patterns and principles for human centric Software Engineering.
-                </p>       
+                </p>
+                </span>
+                <span v-if="type === 'model'">
+            <h1 class="mt-5 mb-0 pb-0 display-1 font-weight-bold">
+          Models
+          </h1>  
+          <p class="mb-15">Models and concepts to apply in People First Engineering environments.
+                </p>
+                </span>    
                 <v-list shaped nav>
       
       <v-list-item-group
