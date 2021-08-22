@@ -82,7 +82,7 @@
         </v-btn>
         </router-link>
         <router-link to="/models" class="no-underline">
-        <v-btn @click="reload(true)" rounded text class="ma-1">
+        <v-btn @click="reload(false)" rounded text class="ma-1">
           <span>Models</span>
         </v-btn>
         </router-link>
@@ -172,7 +172,7 @@ export default {
     items: [
       ["mdi-home-outline", "Home", "/", false],
       ["mdi-clipboard-text-outline", "Protocols", "/protocols", true],
-      ["mdi-toy-brick-outline", "Models", "/models", true],
+      ["mdi-toy-brick-outline", "Models", "/models", false],
       ["mdi-wrench-outline", "Tools", "/tools", false],
       ["mdi-information-outline", "About", "about", false],
       ["mdi-pen", "Blogs", "/blogs", false],
@@ -185,7 +185,8 @@ export default {
     },
     reload(pageReload) {
         if (pageReload) {
-            this.$router.go(this.$router.currentRoute)
+            console.log('route', this.$router)
+            this.$router.go(this.$router.resolve)
         }
       }
   },
