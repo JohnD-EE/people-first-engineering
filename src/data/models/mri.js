@@ -86,6 +86,7 @@ const model = {
             paragraphs: [
                 {type: 'list', items: [
                 'Give people the benefit of the doubt',
+                'Is the weather or climate? Momentary hostility or a trend?',
                 'Make kind allowances',
                 'Assume people are doing their best',
                 'Ignore and walk away',

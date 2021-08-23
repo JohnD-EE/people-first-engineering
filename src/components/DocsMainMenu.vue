@@ -1,7 +1,7 @@
 <template>
     <div>
         <v-row align="start" justify="center">
-            <v-col cols="6">
+            <v-col cols="10" md="6">
                 <span v-if="type === 'protocol'">
             <h1 class="mt-5 mb-0 pb-0 display-1 font-weight-bold">
           Protocols

@@ -79,6 +79,10 @@
                 <p>Meeting support tools to plan and execute meetings with a People First mindset. Meetings don't have to be an ennervating drag, 
                   make them engaging, efficient and productive - get feedback and change the format if they're not working.
                 </p>
+                <h3>Bus Fator</h3>
+                <p>A tool to create a domain knowledge matrix, looking at a Software ecosystem from functional and component perspectives and 
+                  providing the means for people to be graded on their knowledge and expertise. The aim will be to derive a meaningful 
+                  Bus Factor, showing how many Engineers would need to be run over by a bus to cause a catastrophic failure of the system.</p>
               </v-col>
           </v-row>
           <v-row align="center" justify="center">
