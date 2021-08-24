@@ -22,7 +22,7 @@
               cols="12"
               sm="12"
               class="text-left"
-              v-for="(item, i) in items"
+              v-for="(item, i) in itemsReversed"
               :key="i"
             >
               <v-hover v-slot:default="{ hover }">
@@ -87,9 +87,19 @@ export default {
   },
   data: () => ({
     items: [
-        { title: 'Protocols, models, and tools for a People First approach to Software Engineering.', subtitle: 'Re-engineering our work environments to put People First', author: 'John Durrant', date: '2021-08-17', url: 'https://peoplefirstengineering.substack.com/p/coming-soon' }
+        { title: 'Protocols, models, and tools for a People First approach to Software Engineering.', subtitle: 'Re-engineering our work environments to put People First', author: 'John Durrant', date: '2021-08-17', url: 'https://peoplefirstengineering.substack.com/p/coming-soon' },
+        { title: 'The Bus Factor.', subtitle: 'How many of your Engineers could you risk being run over by a bus?', author: 'John Durrant', date: '2021-08-23', url: 'https://peoplefirstengineering.substack.com/p/bus-factor' }
     ]
-  })
+  }),
+  computed: {
+      itemsReversed() {
+          let reversed = []
+          for (let i = this.items.length - 1; i >= 0; i--) {
+              reversed.push(this.items[i])
+              }
+          return reversed
+      }
+  }
 }
 </script>
 
