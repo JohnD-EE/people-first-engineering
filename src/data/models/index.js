@@ -87,7 +87,14 @@ const data = [
         ref: 'conways-law',
         listPosition: 110
     },
-    
+    {
+        name: 'Cynefin Framework',
+        keyName: 'cynefinFramework',
+        category: '',
+        file: 'cynefinFramework.js',
+        ref: 'cynefin-framework',
+        listPosition: 120
+    },
 ]
 
 export default {

@@ -87,8 +87,8 @@ export default {
   },
   data: () => ({
     items: [
-        { title: 'Protocols, models, and tools for a People First approach to Software Engineering.', subtitle: 'Re-engineering our work environments to put People First', author: 'John Durrant', date: '2021-08-17', url: 'https://peoplefirstengineering.substack.com/p/coming-soon' },
-        { title: 'The Bus Factor.', subtitle: 'How many of your Engineers could you risk being run over by a bus?', author: 'John Durrant', date: '2021-08-23', url: 'https://peoplefirstengineering.substack.com/p/bus-factor' }
+        { title: 'Protocols, models, and tools for a People First approach to Software Engineering.', subtitle: 'Re-engineering our work environments to put People First', author: 'John Durrant', date: '2021-08-17', url: 'https://peoplefirstengineering.substack.com/p/coming-soon', img: 'https://cdn.substack.com/image/fetch/w_336,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9b001393-00a9-4014-bcf5-cc72e4f2a51d_360x360.png' },
+        { title: 'The Bus Factor.', subtitle: 'How many of your Engineers could you risk being run over by a bus?', author: 'John Durrant', date: '2021-08-23', url: 'https://peoplefirstengineering.substack.com/p/bus-factor', img: 'https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F700450c7-da7e-43fc-943f-34109eeaea56_1024x768.jpeg' }
     ]
   }),
   computed: {

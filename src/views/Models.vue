@@ -43,6 +43,7 @@ import firstPrinciples from '../data/models/firstPrinciples.js'
 import parentAdultChild from '../data/models/parentAdultChild.js'
 import paretoPrinciple from '../data/models/paretoPrinciple.js'
 import peterPrinciple from '../data/models/peterPrinciple.js'
+import cynefinFramework from '../data/models/cynefinFramework.js'
 
 export default {
   components: {
@@ -67,7 +68,8 @@ export default {
     firstPrinciples: firstPrinciples,
     parentAdultChild: parentAdultChild,
     paretoPrinciple: paretoPrinciple,
-    peterPrinciple: peterPrinciple
+    peterPrinciple: peterPrinciple,
+    cynefinFramework: cynefinFramework
   }),
   computed: {
     selectedModelData () {
