@@ -36,10 +36,10 @@ const protocol = {
     keyName: 'psychologicalSafety',
     status: 'draft',
     intent: [
-        'The intent is to provide an environment where conventions may be challenged, difficult questions may be asked, and where one\'s status is not a factor in the pursuit of truth. It provides a secure environment for taking risks, for trying and failing if necessary in the pursuit of a worthy goal.'
+        'The intent is to provide an environment where conventions MAY be challenged, difficult questions MAY be asked, and where one\'s status or hierarchical dominance MUST NOT be a barrier the pursuit of truth. It SHOULD provide a secure environment for taking risks, for trying, and failing if necessary, in the pursuit of a worthy goal.'
     ],
     definitions: [
-        'Psychological Safety is not a \'Kum ba yah\' environment where everyone nicely agrees with each other.',
+        'Psychological Safety MUST NOT be interpreted as a \'Kum ba yah\' environment where everyone nicely agrees with each other.',
     ],
     overview: [],
     sections: [
@@ -58,6 +58,9 @@ const protocol = {
                 'People MUST NOT feel like they need to conceal concerns or suggestions.',
                 'People MUST NOT fear shame or ridcule for taking the risk to speak up.',
                 'People MUST NOT be reprimanded or punished for making a mistake or screwing up.',
+                'Sharing bad news SHOULD be easy',
+                'People SHOULD NOT experience stress over how they convey a message for fear of how it may land, they SHOULD be able to say what they think in the moment.',
+                'If people feel they are not being listend to, they SHOULD be able to re-assert themselves without consequences.',
                 'Constructive dissent SHOULD be encouraged.',
                 'Questioning authority SHOULD be encouraged.',
                 'We MUST NOT limit the number of times a person can ask WHY?',
@@ -68,13 +71,47 @@ const protocol = {
         {
             name: 'Power',
             paragraphs: [
-                'A person\'s lower status in a formal hierarchy MUST NOT affect their right to question someone, repeatedly if necessary, with a higher formal status. Might is not right.',
+                'A person\'s lower status in a formal hierarchy MUST NOT affect their right to question someone, repeatedly if necessary, with a higher formal status.',
             ]
         },
         {
             name: 'Risk',
             paragraphs: [
                 'People SHOULD feel permitted to take risks, and fail if necessary, on the path to trying to do something brilliant.',
+                'People MUST feel able to fearlessly risk inviting feedback and criticism from anyone',
+                'A culture of "Yes Men" or the emergence of Groupthink MUST NOT be tollerated'
+            ]
+        },
+        {
+            name: 'Leadership',
+            paragraphs: [
+                'Leaders MUST consciously be approachable with any concern or suggestion.',
+                'High status leaders MUST appreciate they may be wrongly perceived as being unapproachable by lower status people and SHOULD make extra effort to be approachable. Status MUST NOT be a barrier to approachability.',
+            ]
+        },
+        {
+            name: 'Culture',
+            paragraphs: [
+                'A culture of Toxic Positivity MUST be recognised as antithetical to Psychological Safety.',
+                'Psychological Safety SHOULD be regularly promoted as part a People First Organisational culture'
+            ]
+        },
+        {
+            name: 'Scope',
+            paragraphs: [
+                'Psychological Safety SHOULD be practiced both internally within the organisation, and in external relationships.',
+            ]
+        },
+        {
+            name: 'Uncertainty',
+            paragraphs: [
+                'Answering a question with \'I don\'t know\' MUST be acceptable.',
+            ]
+        },
+        {
+            name: 'Accountability',
+            paragraphs: [
+                '',
             ]
         },
     ],

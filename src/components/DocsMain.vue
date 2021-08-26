@@ -24,6 +24,11 @@
                     >
                     {{generalAlert}}
                     </v-alert>
+                <p class="mt-5 mb-15 caption">
+                    These documents use the words "MUST", "MUST NOT", "SHOULD", "SHOULD NOT", 
+                    and "MAY" as per the interpretation guidelines laid out in <a href="https://www.ietf.org/rfc/rfc2119.txt" target="blank">RFC-2119</a> in the 
+                    Harvard University Network Working Group memo.
+                    </p>
                 <div v-if="checkProperty(item.intent)">
                 <h3 id="intent">
                     Intent
