@@ -26,6 +26,8 @@
         <v-list-item
           v-for="(item, i) in data"
           :key="i"
+          :to="getRoute(item.ref)"
+           router
         >
           <v-list-item-content>
             <v-list-item-title>
@@ -53,13 +55,16 @@ export default {
     methods: {
         scrollToTop () {
             window.scrollTo(0, 0)
+        },
+        getRoute(ref) {
+            return '/' + this.type + 's/' + ref
         }
     },
     watch: {
         selectedItem (value) {
-            const newRef = this.data[value].ref
+            //const newRef = this.data[value].ref
             this.scrollToTop()
-            this.$emit('menuChange', newRef)
+            //this.$emit('menuChange', newRef)
         }
     } 
 }

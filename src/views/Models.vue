@@ -54,7 +54,6 @@ export default {
   },
   data: () => ({
     keys: keys,
-    selectedRef: null,
     type: 'model',
     generalAlert: 'This website is still very young and the models here are a work in progress.',
     mri: mri,
@@ -79,6 +78,9 @@ export default {
        }
       return []
     },
+    selectedRef () {
+      return this.$route.params.ref || null
+    },
     menuData () {
       return this.keys.data
     },
@@ -89,7 +91,7 @@ export default {
   },
   methods: {
     onModelChange (newRef) {
-      this.selectedRef = newRef
+      //this.selectedRef = newRef
     }
   }
 }

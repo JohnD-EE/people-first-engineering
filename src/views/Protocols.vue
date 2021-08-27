@@ -67,7 +67,6 @@ export default {
   },
   data: () => ({
     keys: keys,
-    selectedRef: null,
     type: 'protocol',
     generalAlert: 'The protocols here are currently in very early DRAFT status and will be subject to considerable revision until reviewed and approved.',
     autonomy: autonomy,
@@ -100,6 +99,11 @@ export default {
          return selectedProtocol[0]
        }
       return []
+    },
+    selectedRef () {
+      //console.log('$route', this.$route.params.ref)
+      
+      return this.$route.params.ref || null
     },
     menuData () {
       return this.keys.data
@@ -147,7 +151,8 @@ export default {
   },
   methods: {
     onProtocolChange (newRef) {
-      this.selectedRef = newRef
+      console.log('$route', this.$route.params.ref)
+      //this.selectedRef = this.$route.params.ref || null
     }
   }
 }

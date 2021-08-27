@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import Protocols from '../views/Protocols.vue'
 
 Vue.use(VueRouter)
 
@@ -29,9 +30,12 @@ const routes = [
     component: () => import('../views/Tools.vue')
   },
   {
-    path: '/protocols',
+    path: '/protocols/:ref?',
     name: 'Protocols',
-    component: () => import('../views/Protocols.vue')
+    component: () => import('../views/Protocols.vue'),
+    children: [
+      //{ path: '/protocols/:ref', Protocols }
+    ]
   },
   {
     path: '/blogs',
@@ -40,11 +44,11 @@ const routes = [
   },
   {
     path: '/podcasts',
-    name: 'BPodcasts',
+    name: 'Podcasts',
     component: () => import('../views/Podcasts.vue')
   },
   {
-    path: '/models',
+    path: '/models/:ref?',
     name: 'Models',
     component: () => import('../views/Models.vue')
   }

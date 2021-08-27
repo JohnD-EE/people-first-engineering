@@ -4,7 +4,7 @@
             <v-col cols="12">
                 <v-navigation-drawer fixed floating style="top: 65px">             
                 <v-list dense shaped nav>
-      <v-subheader  class="primary--text font-weight-bold">{{menuHeader}}</v-subheader>
+      <v-subheader class="primary--text font-weight-bold">{{menuHeader}}</v-subheader>
       <v-list-item-group
         v-model="selectedItem"
         color="secondary"
@@ -13,6 +13,8 @@
         <v-list-item
           v-for="(item, i) in data"
           :key="i"
+          :to="getRoute(item.ref)"
+           router
         >
           <v-list-item-content>
             <v-list-item-title>
@@ -41,6 +43,9 @@ export default {
     methods: {
         scrollToTop () {
             window.scrollTo(0, 0)
+        },
+        getRoute(ref) {
+            return '/' + this.type + 's/' + ref
         }
     },
     watch: {

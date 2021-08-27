@@ -146,9 +146,9 @@ const protocol = {
                 'Psychological Safety SHOULD reduce errors and improve quality.',
                 'Psychological Safety SHOULD improve team cohesion and performance.',
                 'Psychological Safety SHOULD improve creativity and innovation.',
-                'Psychological Safety SHOULD improve accountability',
-                'Psychological Safety SHOULD improve inclusivity',
-                'Psychological Safety SHOULD reduce gossip, backstabbing, or sabotage',
+                'Psychological Safety SHOULD improve accountability.',
+                'Psychological Safety SHOULD improve inclusivity.',
+                'Psychological Safety SHOULD reduce gossip, backstabbing, or sabotage.',
                 'Orgnaisational wellbeing SHOULD improve.'
             ]
         },
