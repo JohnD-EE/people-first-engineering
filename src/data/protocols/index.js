@@ -5,6 +5,7 @@ const data = [
         category: '',
         file: 'psychologicalSafety.js',
         ref: 'PFE-1',
+        slug: 'psychological-safety',
         listPosition: 10
     },
     {
@@ -13,6 +14,7 @@ const data = [
         category: '',
         file: 'change.js',
         ref: 'PFE-2',
+        slug: 'change',
         listPosition: 20
     },
     {
@@ -21,6 +23,7 @@ const data = [
         category: '',
         file: 'leadership.js',
         ref: 'PFE-3',
+        slug: 'leadership',
         listPosition: 30
     },
     {
@@ -29,6 +32,7 @@ const data = [
         category: '',
         file: 'systemsThinking.js',
         ref: 'PFE-4',
+        slug: 'systems-thinking',
         listPosition: 40
     },
     {
@@ -37,6 +41,7 @@ const data = [
         category: '',
         file: 'senseMaking.js',
         ref: 'PFE-5',
+        slug: 'sense-making',
         listPosition: 50
     },
     {
@@ -45,6 +50,7 @@ const data = [
         category: '',
         file: 'decisions.js',
         ref: 'PFE-6',
+        slug: 'decisions',
         listPosition: 60
     },
     {
@@ -53,6 +59,7 @@ const data = [
         category: '',
         file: 'information.js',
         ref: 'PFE-7',
+        slug: 'information',
         listPosition: 70
     },
     {
@@ -61,6 +68,7 @@ const data = [
         category: '',
         file: 'narrative.js',
         ref: 'PFE-8',
+        slug: 'narrative',
         listPosition: 80
     },
     {
@@ -69,6 +77,7 @@ const data = [
         category: '',
         file: 'wellbeing.js',
         ref: 'PFE-9',
+        slug: 'wellbeing',
         listPosition: 90
     },
     {
@@ -77,6 +86,7 @@ const data = [
         category: '',
         file: 'flow.js',
         ref: 'PFE-10',
+        slug: 'flow',
         listPosition: 100
     },
     {
@@ -85,6 +95,7 @@ const data = [
         category: '',
         file: 'mastery.js',
         ref: 'PFE-11',
+        slug: 'mastery',
         listPosition: 110
     },
     {
@@ -93,6 +104,7 @@ const data = [
         category: '',
         file: 'relatedness.js',
         ref: 'PFE-12',
+        slug: 'relatedness',
         listPosition: 120
     },
     {
@@ -101,6 +113,7 @@ const data = [
         category: '',
         file: 'autonomy.js',
         ref: 'PFE-13',
+        slug: 'autonomy',
         listPosition: 130
     },
     {
@@ -109,6 +122,7 @@ const data = [
         category: '',
         file: 'learning.js',
         ref: 'PFE-14',
+        slug: 'learning',
         listPosition: 140
     },
     {
@@ -117,6 +131,7 @@ const data = [
         category: '',
         file: 'growth.js',
         ref: 'PFE-15',
+        slug: 'growth',
         listPosition: 150
     },
     {
@@ -125,6 +140,7 @@ const data = [
         category: '',
         file: 'intelligences.js',
         ref: 'PFE-16',
+        slug: 'intelligences',
         listPosition: 160
     },
     {
@@ -133,6 +149,7 @@ const data = [
         category: '',
         file: 'conflict.js',
         ref: 'PFE-17',
+        slug: 'conflict',
         listPosition: 170
     },
     {
@@ -141,6 +158,7 @@ const data = [
         category: '',
         file: 'diversity.js',
         ref: 'PFE-18',
+        slug: 'diversity',
         listPosition: 180
     },
     {
@@ -149,6 +167,7 @@ const data = [
         category: '',
         file: 'quality.js',
         ref: 'PFE-19',
+        slug: 'quality',
         listPosition: 190
     },
     {
@@ -157,6 +176,7 @@ const data = [
         category: '',
         file: 'power.js',
         ref: 'PFE-20',
+        slug: 'power',
         listPosition: 200
     },
     {
@@ -165,6 +185,7 @@ const data = [
         category: '',
         file: 'control.js',
         ref: 'PFE-21',
+        slug: 'control',
         listPosition: 210
     },
     {
@@ -173,6 +194,7 @@ const data = [
         category: '',
         file: 'trust.js',
         ref: 'PFE-22',
+        slug: 'trust',
         listPosition: 220
     }
 

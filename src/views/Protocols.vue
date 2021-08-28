@@ -1,7 +1,7 @@
 <template>
   <section id="protocols">
     <v-container fluid class="pb-15">
-      <v-row v-if="selectedRef" align="start" justify="start">
+      <v-row v-if="selectedSlug" align="start" justify="start">
         <v-col cols="12" md="3">
           <docsMenu :data="menuData" :type="type"></docsMenu>
         </v-col>
@@ -94,14 +94,14 @@ export default {
   }),
   computed: {
     selectedProtocolData () {
-      const selectedProtocol = this.keys.data.filter(x => x.ref === this.selectedRef)
+      const selectedProtocol = this.keys.data.filter(x => x.slug === this.selectedSlug)
        if (selectedProtocol.length) {
          return selectedProtocol[0]
        }
       return []
     },
-    selectedRef () {
-      return this.$route.params.ref || null
+    selectedSlug () {
+      return this.$route.params.slug || null
     },
     menuData () {
       return this.keys.data

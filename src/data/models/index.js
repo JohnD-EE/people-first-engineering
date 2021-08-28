@@ -5,6 +5,7 @@ const data = [
         category: '',
         file: 'mri.js',
         ref: 'mri',
+        slug: 'mri',
         listPosition: 10
     },
     {
@@ -13,6 +14,7 @@ const data = [
         category: '',
         file: 'parentAdultChild.js',
         ref: 'parent-adult-child',
+        slug: 'parent-adult-child',
         listPosition: 20
     },
     {
@@ -21,6 +23,7 @@ const data = [
         category: '',
         file: 'dramaTriangle.js',
         ref: 'drama-triangle',
+        slug: 'drama-triangle',
         listPosition: 30
     },
     {
@@ -29,6 +32,7 @@ const data = [
         category: '',
         file: 'flow.js',
         ref: 'flow',
+        slug: 'flow',
         listPosition: 40
     },
     {
@@ -37,6 +41,7 @@ const data = [
         category: '',
         file: 'brooksLaw.js',
         ref: 'brooks-law',
+        slug: 'brooks-law',
         listPosition: 50
     },
     {
@@ -45,6 +50,7 @@ const data = [
         category: '',
         file: 'paretoPrinciple.js',
         ref: 'pareto-principle',
+        slug: 'pareto-principle',
         listPosition: 60
     },
     {
@@ -53,6 +59,7 @@ const data = [
         category: '',
         file: 'peterPrinciple.js',
         ref: 'peter-principle',
+        slug: 'peter-principle',
         listPosition: 70
     },
     {
@@ -61,6 +68,7 @@ const data = [
         category: '',
         file: 'buildSystemsNotGoals.js',
         ref: 'build-systems-not-goals',
+        slug: 'build-systems-not-goals',
         listPosition: 80
     },
     {
@@ -69,6 +77,7 @@ const data = [
         category: '',
         file: 'jugglingGlassOrRubberBalls.js',
         ref: 'jugglingGlassOrRubberBalls',
+        slug: 'jugglingGlassOrRubberBalls',
         listPosition: 90
     },
     {
@@ -77,6 +86,7 @@ const data = [
         category: '',
         file: 'chestertonsFence.js',
         ref: 'chestertons-fence',
+        slug: 'chestertons-fence',
         listPosition: 100
     },
     {
@@ -85,6 +95,7 @@ const data = [
         category: '',
         file: 'conwaysLaw.js',
         ref: 'conways-law',
+        slug: 'conways-law',
         listPosition: 110
     },
     {
@@ -93,6 +104,7 @@ const data = [
         category: '',
         file: 'cynefinFramework.js',
         ref: 'cynefin-framework',
+        slug: 'cynefin-framework',
         listPosition: 120
     },
 ]

@@ -26,7 +26,7 @@
         <v-list-item
           v-for="(item, i) in data"
           :key="i"
-          :to="getRoute(item.ref)"
+          :to="getRoute(item.slug)"
            router
         >
           <v-list-item-content>
@@ -56,8 +56,8 @@ export default {
         scrollToTop () {
             window.scrollTo(0, 0)
         },
-        getRoute(ref) {
-            return '/' + this.type + 's/' + ref
+        getRoute(slug) {
+            return '/' + this.type + 's/' + slug
         }
     },
     watch: {

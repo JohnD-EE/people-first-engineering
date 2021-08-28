@@ -29,7 +29,7 @@ const routes = [
     component: () => import('../views/Tools.vue')
   },
   {
-    path: '/protocols/:ref?',
+    path: '/protocols/:slug?',
     name: 'Protocols',
     component: () => import('../views/Protocols.vue')
   },
@@ -44,7 +44,7 @@ const routes = [
     component: () => import('../views/Podcasts.vue')
   },
   {
-    path: '/models/:ref?',
+    path: '/models/:slug?',
     name: 'Models',
     component: () => import('../views/Models.vue')
   }
