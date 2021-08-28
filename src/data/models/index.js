@@ -45,6 +45,15 @@ const data = [
         listPosition: 50
     },
     {
+        name: 'Stacey Matrix',
+        keyName: 'staceyMatrix',
+        category: '',
+        file: 'staceyMatrix.js',
+        ref: 'stacey-matrix',
+        slug: 'stacey-matrix',
+        listPosition: 55
+    },
+    {
         name: 'Pareto Principle',
         keyName: 'paretoPrinciple',
         category: '',

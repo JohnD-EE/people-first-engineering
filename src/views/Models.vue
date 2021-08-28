@@ -38,12 +38,13 @@ import brooksLaw from '../data/models/brooksLaw.js'
 import buildSystemsNotGoals from '../data/models/buildSystemsNotGoals.js'
 import chestertonsFence from '../data/models/chestertonsFence.js'
 import conwaysLaw from '../data/models/brooksLaw.js'
+import cynefinFramework from '../data/models/cynefinFramework.js'
 import dramaTriangle from '../data/models/dramaTriangle.js'
 import firstPrinciples from '../data/models/firstPrinciples.js'
 import parentAdultChild from '../data/models/parentAdultChild.js'
 import paretoPrinciple from '../data/models/paretoPrinciple.js'
 import peterPrinciple from '../data/models/peterPrinciple.js'
-import cynefinFramework from '../data/models/cynefinFramework.js'
+import staceyMatrix from '../data/models/staceyMatrix.js'
 
 export default {
   components: {
@@ -63,12 +64,13 @@ export default {
     buildSystemsNotGoals: buildSystemsNotGoals,
     chestertonsFence: chestertonsFence,
     conwaysLaw: conwaysLaw,
+    cynefinFramework: cynefinFramework,
     dramaTriangle:dramaTriangle,
     firstPrinciples: firstPrinciples,
     parentAdultChild: parentAdultChild,
     paretoPrinciple: paretoPrinciple,
     peterPrinciple: peterPrinciple,
-    cynefinFramework: cynefinFramework
+    staceyMatrix: staceyMatrix
   }),
   computed: {
     selectedModelData () {

@@ -141,10 +141,38 @@
                             <p>{{content}}</p>
                         </div>
                     </div>
-
                 </div>
             </v-col>
         </v-row>
+        <v-row align="center" justify="center">
+            <v-col cols="12">
+                
+                </v-col>
+                <v-col cols="8">
+                    <v-card
+                  class="card pa-3"
+                  dark
+                  color="primary"
+                >
+                <p class="text-center mb-0">
+                    <v-btn                    
+          href="https://github.com/organizations/people-first-engineering"
+          target="_blank"
+          icon
+          x-large
+        >
+          <v-icon x-large>mdi-github</v-icon>
+        </v-btn>
+                </p>
+                  <h3 class="font-weight-bold mb-1 text-center">Participation</h3>
+                  <p class="font-weight-regular body-2 text-center">
+                    These {{type}}s will soon be available in an Open Source repository where contributions and 
+                    amendments from others will be encouraged.
+                  </p>
+                </v-card>
+                </v-col>
+                
+            </v-row>
     </div>
 </template>
 
@@ -164,7 +192,7 @@ export default {
         }
     },
     mounted() {
-        //console.log('DATA PROP', this.data)
+        //
   }
 }
 </script>
