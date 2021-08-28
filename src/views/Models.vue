@@ -90,8 +90,8 @@ export default {
     }    
   },
   methods: {
-    onModelChange (newRef) {
-      //this.selectedRef = newRef
+    onModelChange () {
+      //
     }
   }
 }

@@ -101,8 +101,6 @@ export default {
       return []
     },
     selectedRef () {
-      //console.log('$route', this.$route.params.ref)
-      
       return this.$route.params.ref || null
     },
     menuData () {
@@ -150,9 +148,8 @@ export default {
     }
   },
   methods: {
-    onProtocolChange (newRef) {
-      console.log('$route', this.$route.params.ref)
-      //this.selectedRef = this.$route.params.ref || null
+    onProtocolChange () {
+      //
     }
   }
 }
