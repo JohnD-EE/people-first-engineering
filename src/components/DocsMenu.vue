@@ -32,7 +32,7 @@
 <script>
 export default {
   data: () => ({
-      selectedItem: 0
+      selectedItem: null
   }),
     props: ['data', 'type'],
     computed: {
@@ -49,10 +49,10 @@ export default {
         }
     },
     watch: {
-        selectedItem (value) {
-            const newRef = this.data[value].ref
+        selectedItem () {
+            //const newRef = this.data[value].ref
             this.scrollToTop()
-            this.$emit('menuChange', newRef)
+            //this.$emit('menuChange', newRef)
         }
     } 
 }

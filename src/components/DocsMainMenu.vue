@@ -61,10 +61,8 @@ export default {
         }
     },
     watch: {
-        selectedItem (value) {
-            //const newRef = this.data[value].ref
+        selectedItem () {
             this.scrollToTop()
-            //this.$emit('menuChange', newRef)
         }
     } 
 }

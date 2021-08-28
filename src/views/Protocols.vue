@@ -3,7 +3,7 @@
     <v-container fluid class="pb-15">
       <v-row v-if="selectedRef" align="start" justify="start">
         <v-col cols="12" md="3">
-          <docsMenu :data="menuData" :type="type" @menuChange="onProtocolChange"></docsMenu>
+          <docsMenu :data="menuData" :type="type"></docsMenu>
         </v-col>
         <v-col cols="12" md="6">
           <docsMain :data="mainData" :type="type" :generalAlert="generalAlert"></docsMain>
@@ -16,7 +16,7 @@
       <v-row v-else>
         
         <v-col cols="12">
-          <docsMainMenu :data="menuData" :type="type" @menuChange="onProtocolChange"></docsMainMenu>
+          <docsMainMenu :data="menuData" :type="type"></docsMainMenu>
           <foot/>
         </v-col>
         </v-row>
@@ -145,11 +145,6 @@ export default {
       }
 
       return sectionHeadings
-    }
-  },
-  methods: {
-    onProtocolChange () {
-      //
     }
   }
 }
