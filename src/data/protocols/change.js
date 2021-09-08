@@ -4,17 +4,38 @@ const protocol = {
     keyName: 'change',    
     status: 'draft',
     intent: [
-        'The intent of a People First approach to change is to accept change as a potentially painful, but inevitable and naturally occuring phenomina in all realms of life',
-        'People react differently to different change so the aim is to diminish the difficult and painful aspects of change, while optimising for the opportunities it presents.',
+        'The intent of a People First approach to change that we SHOULD consider the impact of any change on the people who are affected by it and involve affected people in decisions relating to change when possible.',
+        'People react differently to different change so the intent is to diminish the difficult and painful aspects of change, while optimising for the opportunities it presents.',
     ],
     definitions: [], //nothing should be ambiguous
     overview: [], //context, big picture scenarios
     sections: [
         {
-            name: 'Section 1'
+            name: 'Section 1',
+            paragraphs: [
+                ''
+            ]
         },
         {
-            name: 'Section 2',
+            name: 'Leadership',
+        },
+        {
+            name: 'Communication',
+        },
+        {
+            name: 'Inclusivity',
+        },
+        {
+            name: 'Alignment',
+        },
+        {
+            name: 'Empowerment',
+        },
+        {
+            name: 'Resistance',
+        },
+        {
+            name: 'Impact',
         },
     ],
     conclusions: [],

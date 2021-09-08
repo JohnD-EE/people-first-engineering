@@ -41,7 +41,7 @@ import decisions from '../data/protocols/decisions.js'
 import diversity from '../data/protocols/diversity.js'
 import flow from '../data/protocols/flow.js'
 import growth from '../data/protocols/growth.js'
-import information from '../data/protocols/information.js'
+import operationalExcellence from '../data/protocols/operationalExcellence.js'
 import intelligences from '../data/protocols/intelligences.js'
 import leadership from '../data/protocols/leadership.js'
 import learning from '../data/protocols/learning.js'
@@ -78,7 +78,7 @@ export default {
     diversity: diversity,
     flow: flow,
     growth: growth,
-    information: information,
+    operationalExcellence: operationalExcellence,
     leadership: leadership,
     learning: learning,
     mastery: mastery,

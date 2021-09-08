@@ -141,7 +141,7 @@ const protocol = {
             ]
         },
         {
-            name: 'Benefits',
+            name: 'Impact',
             paragraphs: [
                 'Psychological Safety SHOULD reduce errors and improve quality.',
                 'Psychological Safety SHOULD improve team cohesion and performance.',
@@ -149,7 +149,7 @@ const protocol = {
                 'Psychological Safety SHOULD improve accountability.',
                 'Psychological Safety SHOULD improve inclusivity.',
                 'Psychological Safety SHOULD reduce gossip, backstabbing, or sabotage.',
-                'Orgnaisational wellbeing SHOULD improve.'
+                'Organisational wellbeing SHOULD improve.'
             ]
         },
     ],

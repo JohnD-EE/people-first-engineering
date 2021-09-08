@@ -8,12 +8,20 @@ const protocol = {
     overview: [], //context, big picture scenarios
     sections: [
         {
-            name: 'Section 1',
-            paragraphs: [],
-            behaviourTable: {}
+            name: 'Distributed Leadership',
+            paragraphs: [
+                'Leaders MUST be encouraged to emerge naturally, wherever there is need.',
+                'Leaders SHOULD be high in competency for the situation, formal status MUST NOT be a barrier.',
+                'Leadership MAY be temporary, as informal and natural temporary hierarchy emerges.',
+                'Leadership SHOULD be contextual. The right leader for the conditions.',
+                'Leadership SHOULD NOT be centralised.'
+            ]
         },
         {
-            name: 'Section 2',
+            name: 'Support',
+            paragraphs: [
+                'Leaders SHOULD show you that they believe in your potential'
+            ],
         },
     ],
     conclusions: [],

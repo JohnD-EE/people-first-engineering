@@ -54,12 +54,12 @@ const data = [
         listPosition: 60
     },
     {
-        name: 'Information',
-        keyName: 'information',
+        name: 'Operational Excellence',
+        keyName: 'operationalExcellence',
         category: '',
-        file: 'information.js',
+        file: 'operationalExcellence.js',
         ref: 'PFE-7',
-        slug: 'information',
+        slug: 'operational-excellence',
         listPosition: 70
     },
     {
