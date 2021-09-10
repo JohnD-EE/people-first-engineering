@@ -51,15 +51,12 @@
                   <p>See my blog post: 
                   <a href="https://purplelabs.eagleeye.com/blog/triggering-the-flow-state-for-software-engineers">
                   Triggering the Flow State for Software Engineers</a></p>
-                <p>Tools to gain insights in the social dynamics between people, or standardised 
-                  principles for convivial and productive working relationships. I would often read 
+                <p>With this projet I am aiming to create some tools to gain insights in the social dynamics between people, or standardised 
+                  principles for convivial and productive working relationships. I often read 
                   about interesting ideas and concepts, perhaps in the realm of Systems Thinking or 
                   some deep Psychological or Philosophical piece on the nature of human beings, but 
-                  I would fail when trying to articulate these ideas for consideration by the wider 
-                  business.</p>
-                <p>I often felt like my thinking was way too unpallatable to be accepted at the first 
-                  airing and became frustrated that what I felt were brilliant insights would often 
-                  fall flat to corporate ears.</p>
+                  I sometimes stuggle when trying to articulate these ideas for consideration by people less open to such radical ideas.</p>
+                
                 <h3>
                   A Personal Muse:
                 </h3>
@@ -67,7 +64,7 @@
                   ideas, and learnings I've had on my journey. It has been bubbling in my mind for a 
                   while and I'm keen to selfishly dedicate some deep thinking time to bring my thinking 
                   to life in these pages.</p>
-                <p>This will be an ongoing 'work in progress'. The principles and models I introduce will 
+                <p>This will be an ongoing 'Work in Progress'. The principles and models I introduce will 
                   be open source so anyone can copy, critique and contribute. The tools section will be built out 
                   overtime, with some tools being free to use, and others paid for.
                 </p>
@@ -95,7 +92,7 @@
                   ambiguous requirements and impossible time pressures, and frustrated colleagues, it can be 
                   a joyless, soul sapping chore.
                 </p>
-                <p>It's our collective duty to make Software Engineering a joyful experiences.</p>
+                <p>It's our collective duty to make Software Engineering a joyful and smooth experience.</p>
               </v-col>
           </v-row>
           <v-row align="center" justify="center">
