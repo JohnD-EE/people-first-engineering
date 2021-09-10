@@ -59,7 +59,7 @@
                   but this ignores the aspects of collective intelligence which are the important factor in building software collaboratively. 
                   This tool will help us to review relationships, the important lines of communication between the people we depend upon. 
                   </p>
-                  <p>Further Brooks' Law insights at<a href="https://www.leadingagile.com/2018/02/applying-brooks-law/">Brooks' Law</a></p>
+                  <p>Further Brooks' Law insights at <a href="https://www.leadingagile.com/2018/02/applying-brooks-law/">Brooks' Law</a></p>
                   <h3>
                   Team Sentiment Assessments and other survey based tools:
                 </h3>

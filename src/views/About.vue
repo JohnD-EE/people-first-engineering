@@ -46,12 +46,12 @@
                 <p>
                   Eagle Eye were extremely supportive of my insistence 
                   to emphasise the human experience at work, and to assert the voices of the Software Engineers 
-                  in my department. I introduced the idea of reguarly monitoring people's self reported 
+                  in my department. I introduced the idea of regularly monitoring people's self-reported 
                   FLOW States and am grateful for the support and wider adoption it received.</p>
                   <p>See my blog post: 
                   <a href="https://purplelabs.eagleeye.com/blog/triggering-the-flow-state-for-software-engineers">
                   Triggering the Flow State for Software Engineers</a></p>
-                <p>With this projet I am aiming to create some tools to gain insights in the social dynamics between people, or standardised 
+                <p>With this project I am aiming to create some tools to gain insights into the social dynamics between people, or standardised 
                   principles for convivial and productive working relationships. I often read 
                   about interesting ideas and concepts, perhaps in the realm of Systems Thinking or 
                   some deep Psychological or Philosophical piece on the nature of human beings, but 
@@ -63,18 +63,18 @@
                 <p>So this is a personal project to collate, filter, and articulate the thoughts, 
                   ideas, and learnings I've had on my journey. It has been bubbling in my mind for a 
                   while and I'm keen to selfishly dedicate some deep thinking time to bring my thinking 
-                  to life in these pages.</p>
+                  to life on these pages.</p>
                 <p>This will be an ongoing 'Work in Progress'. The principles and models I introduce will 
-                  be open source so anyone can copy, critique and contribute. The tools section will be built out 
-                  overtime, with some tools being free to use, and others paid for.
+                  be open source so anyone can copy, critique, and contribute. The tools section will be built out 
+                  over time, with some tools being free to use, and others paid for.
                 </p>
                 <h3>
                   Work should be joyful:
                 </h3>
                 <p>Perhaps joyful is a stretch, but we only live once and we spend a large proportion 
-                  of our allotted time in work. If you are unfilfilled and disatisfied in your work 
+                  of our allotted time in work. If you are unfulfilled and dissatisfied in your work 
                   it can permeate into other areas of your life and become a wider problem. Work 
-                  environments can sometimes be toxic and soul destroying, causing untold '9 to 5' 
+                  environments can sometimes be toxic and soul-destroying, causing untold '9 to 5' 
                   Groundhog Day misery for millions.</p>
                 <p>I believe we owe a moral duty to our employees to earnestly strive to make work 
                   as engaging and deeply rewarding as possible. The creative process of building 
@@ -85,14 +85,14 @@
                   Software Engineering:
                 </h3>
                 <p>In the right environment, building software can be a creative, joyful experience where 
-                  we apply our craftmanship, during long bouts of uniterrupted time, with clear requirements 
+                  we apply our craftsmanship, during long bouts of uninterrupted time, with clear requirements 
                   in mind to building applications that serve some kind of beneficial purpose in the world.
                 </p>
-                <p>In the wrong environmnet, wading through old convoluted untestable spaghetti code, dealing with 
+                <p>In the wrong environment, wading through old convoluted untestable spaghetti code, dealing with 
                   ambiguous requirements and impossible time pressures, and frustrated colleagues, it can be 
-                  a joyless, soul sapping chore.
+                  a joyless, soul-sapping chore.
                 </p>
-                <p>It's our collective duty to make Software Engineering a joyful and smooth experience.</p>
+                <p>It's our collective duty to make Software Engineering a joyful and life-affirming experience.</p>
               </v-col>
           </v-row>
           <v-row align="center" justify="center">
