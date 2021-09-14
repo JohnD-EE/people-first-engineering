@@ -101,7 +101,8 @@ const protocol = {
                 'Leaders MUST set the tone of Psychological Safety by leading with empathy.',
                 'Leaders SHOULD model an atmosphere of trust between their peers and their teams.',
                 'Leaders SHOULD engage in Adult to Adult relationships, to model desired organisational communication styles.',
-                'Leaders MUST accept their accountability for mistakes when they inevitably get things wrong.'
+                'Leaders MUST accept their accountability for mistakes when they inevitably get things wrong.',
+                'Leaders SHOULD be alert to people who do not feel Psychlogically Safe, and proactively inquire into the root causes.'
             ]
         },
         {

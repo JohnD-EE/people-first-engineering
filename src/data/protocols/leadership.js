@@ -8,6 +8,24 @@ const protocol = {
     overview: [], //context, big picture scenarios
     sections: [
         {
+            name: 'Power',
+            paragraphs: [
+                'Leadership MUST NOT be limited to high status.',
+                'Leadership through influence and competence, regardless of status, MUST be encouraged.',
+                'Leaders MUST NOT manipulate people\'s perceptions to acheive outcomes.',
+                'Leaders MUST NOT engage in political maneovres to enhance their power at the expnse of others.',
+                'Hierarchical progression MUST be encouraged through non-manipulative, non-coercive, merit-based measures.'
+            ],
+        },
+        {
+            name: 'Information',
+            paragraphs: [
+                'Leaders SHOULD be truth-seekers and truth-sharers.',
+                'Leaders MUST NOT hold on to information to serve their own interests.',
+                'Leaders SHOULD dissemenate truthful interpretations of information to those who need to make information based decisions.',
+            ],
+        },
+        {
             name: 'Distributed Leadership',
             paragraphs: [
                 'Leaders MUST be encouraged to emerge naturally, wherever there is need.',
