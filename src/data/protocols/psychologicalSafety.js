@@ -94,6 +94,7 @@ const protocol = {
         {
             name: 'Leadership',
             paragraphs: [
+                'Leaders MUST NOT lose their temper with people or \'read the riot act\' to them.',
                 'Leaders MUST accept that a Psychologically Safe environment will not emerge on its own, it must be consciously and diligently supported.',
                 'Leaders MUST consciously be approachable with any concern or suggestion, through clearly defined channels of communication, actively listening to feedback and advice, paraphrasing what they\'ve heard to confirm understanding.',
                 'High-status leaders MUST appreciate they may be wrongly perceived as being unapproachable by lower-status people and SHOULD make extra effort to be approachable. Status MUST NOT be a barrier to approachability.',

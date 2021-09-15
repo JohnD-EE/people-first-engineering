@@ -6,17 +6,24 @@
             <h1 class="mt-5 mb-0 pb-0 display-1 font-weight-bold">
           Protocols
           </h1>  
-          <p class="mb-15">Standards, patterns and principles for human centric Software Engineering.
+          <p>Standards, patterns and principles for human centric Software Engineering.
                 </p>
                 </span>
                 <span v-if="type === 'model'">
             <h1 class="mt-5 mb-0 pb-0 display-1 font-weight-bold">
           Models
           </h1>  
-          <p class="mb-15">Models and concepts to apply in People First Engineering environments.
+          <p>Models and concepts to apply in People First Engineering environments.
                 </p>
-                </span>    
+                </span>
+
+          <div
+          v-for="(paragraph, p) in introParagraphs"
+          :key="p">
+                <p class="body-2">{{ paragraph }}</p>
+          </div>      
                 <v-list shaped nav>
+  
       
       <v-list-item-group
         v-model="selectedItem"
@@ -46,7 +53,7 @@ export default {
   data: () => ({
       selectedItem: null
   }),
-    props: ['data', 'type'],
+    props: ['data', 'type', 'introParagraphs'],
     computed: {
         menuHeader () {
             return this.type.toUpperCase() + 'S'

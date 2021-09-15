@@ -16,7 +16,7 @@
       <v-row v-else>
         
         <v-col cols="12">
-          <docsMainMenu :data="menuData" :type="type"></docsMainMenu>
+          <docsMainMenu :data="menuData" :type="type" :introParagraphs="introParagraphs"></docsMainMenu>
           <foot/>
         </v-col>
         </v-row>
@@ -69,6 +69,10 @@ export default {
     keys: keys,
     type: 'protocol',
     generalAlert: 'The protocols here are currently in very early DRAFT status and will be subject to considerable revision until reviewed and approved.',
+    introParagraphs: [
+      'When applying these protocols to your Engineering eco-system and beyond, remember the intent is to encourage enlightened thinking rather than dogmatic prescription.  Apply pragmatism, common sense and moderation to the implementation of these protocols.  Rules have exceptions and these protocols have their limits.',
+      'Remember this is People First thinking so the golden rule is to consider the human beings affected by all that we do.'
+    ],
     autonomy: autonomy,
     change: change,
     intelligences: intelligences,
