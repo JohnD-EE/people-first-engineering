@@ -101,20 +101,20 @@ const protocol = {
                 'Leaders MUST consciously be prepared to be open about their own vulnerabilities and fallibilities rather than having all the answers.',
                 'Leaders MUST set the tone of Psychological Safety by leading with empathy.',
                 'Leaders SHOULD model an atmosphere of trust between their peers and their teams.',
+                'Leaders SHOULD demonstrate their own vulnerability, asking for help, or expressing their own uncertainty.',
                 'Leaders SHOULD engage in Adult to Adult relationships, to model desired organisational communication styles.',
                 'Leaders MUST accept their accountability for mistakes when they inevitably get things wrong.',
-                'Leaders SHOULD be alert to people who do not feel Psychlogically Safe, and proactively inquire into the root causes.'
+                'Leaders SHOULD be alert to people who do not feel Psychologically Safe, and proactively inquire into the root causes.'
             ]
         },
         {
             name: 'Culture',
             paragraphs: [
                 'A culture of Toxic Positivity MUST be recognised as antithetical to Psychological Safety.',
-                'Psychological Safety SHOULD be regularly promoted as part a People First Organisational culture',
+                'Psychological Safety SHOULD be regularly promoted as part of a People First Organisational culture',
                 'The organisation SHOULD acknowledge that an Engineer\'s previous experiences may predominantly be in Psychologically Unsafe settings and therefore the Psychologically Safe culture must be vigilantly reinforced.',
                 'The culture SHOULD feel inclusive.',
-                'Blame should not be tolerated',
-                'The culture SHOULD be an organisational one, not just in Software Engineering.',
+                'Blame MUST NOT be tolerated',
                 'The culture SHOULD encourage and celebrate curiosity',
                 'A culture of "Yes Men" or the emergence of Groupthink MUST NOT be tolerated'
             ]
@@ -122,6 +122,7 @@ const protocol = {
         {
             name: 'Scope',
             paragraphs: [
+                'The culture SHOULD be organisationally supported, not just in Software Engineering.',
                 'Psychological Safety SHOULD be practiced both internally within the organisation, and in external relationships.',
             ]
         },
@@ -130,7 +131,8 @@ const protocol = {
             paragraphs: [
                 'Answering a question with \'I don\'t know\' MUST be acceptable.',
                 'Ambiguity or politically sensitive topics MUST NOT be avoided but navigated with sensitivity.',
-                'It MUST be safe to say "I don\'t know"',
+                'It MUST be safe to say "I don\'t know".',
+                'It SHOULD feel OK for people to ask for help.'
             ]
         },
         {
