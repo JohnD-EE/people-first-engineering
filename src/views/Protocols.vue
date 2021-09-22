@@ -36,6 +36,7 @@ import keys from '../data/protocols/index.js'
 import autonomy from '../data/protocols/autonomy.js'
 import change from '../data/protocols/change.js'
 import conflict from '../data/protocols/conflict.js'
+import connection from '../data/protocols/connection.js'
 import control from '../data/protocols/control.js'
 import decisions from '../data/protocols/decisions.js'
 import diversity from '../data/protocols/diversity.js'
@@ -50,7 +51,6 @@ import narrative from '../data/protocols/narrative.js'
 import power from '../data/protocols/power.js'
 import psychologicalSafety from '../data/protocols/psychologicalSafety.js'
 import quality from '../data/protocols/quality.js'
-import relatedness from '../data/protocols/relatedness.js'
 import senseMaking from '../data/protocols/senseMaking.js'
 import systemsThinking from '../data/protocols/systemsThinking.js'
 import trust from '../data/protocols/trust.js'
@@ -77,6 +77,7 @@ export default {
     change: change,
     intelligences: intelligences,
     conflict: conflict,
+    connection: connection,
     control: control,
     decisions: decisions,
     diversity: diversity,
@@ -90,7 +91,6 @@ export default {
     power: power,
     psychologicalSafety: psychologicalSafety,
     quality: quality,
-    relatedness: relatedness,
     senseMaking: senseMaking,
     systemsThinking: systemsThinking,
     trust: trust,

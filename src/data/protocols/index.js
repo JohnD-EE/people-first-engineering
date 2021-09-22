@@ -99,12 +99,12 @@ const data = [
         listPosition: 110
     },
     {
-        name: 'Relatedness',
-        keyName: 'relatedness',
+        name: 'Connection',
+        keyName: 'connection',
         category: '',
-        file: 'relatedness.js',
+        file: 'connection.js',
         ref: 'PFE-12',
-        slug: 'relatedness',
+        slug: 'connection',
         listPosition: 120
     },
     {
