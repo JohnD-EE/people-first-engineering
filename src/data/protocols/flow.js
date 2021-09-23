@@ -96,7 +96,8 @@ const protocol = {
                 'FLOW Assessments SHOULD be used to reflect, learn and grow.',
                 'Engineers SHOULD be encouraged to initiate Change, with the support of Leaders and the prevailing Culture, in order to improve their own probability of experiencing FLOW in response to Learnings from the FLOW assessment.',
                 'Trends and emerging patterns from the FLOW Assessments over time SHOULD be analysed and discussed openly',
-                'Engineers SHOULD be encouraged to discuss their FLOW Assessments with colleagues to encourage awareness and proactively consider the FLOW state of colleagues.'
+                'Engineers SHOULD be encouraged to discuss their FLOW Assessments with colleagues to encourage awareness and proactively consider the FLOW state of colleagues.',
+                'Engineers MAY keep a daily FLOW log to record their FLOW states to enrich their FLOW Assessments.'
             ]
         },
     ],
