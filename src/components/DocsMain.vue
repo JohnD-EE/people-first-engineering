@@ -70,11 +70,11 @@
                 v-for="(section, s) in item.sections"
                     :key="s" >
                     <h4 :id="section.name.replace(/ /g,'_').toLowerCase()" class="pt-5">
-                        <span v-if="type === 'protocols'">{{s + 1}}. </span>{{section.name}}</h4>
+                        <span v-if="type === 'protocol'">{{s + 1}}. </span>{{section.name}}</h4>
                         <div 
                         v-for="(paragraph, p) in section.paragraphs"
                         :key="p">                       
-                        <p class="body-2 mb-3 ml-5" v-if="typeof paragraph === 'string'"><span v-if="type === 'protocols'">{{s + 1}}.{{p}} </span>{{paragraph}}</p>
+                        <p class="body-2 mb-3 ml-5" v-if="typeof paragraph === 'string'"><span v-if="type === 'protocol'">{{s + 1}}.{{p + 1}} </span>{{paragraph}}</p>
                         <span v-if="typeof paragraph === 'object'">
                             <span v-if="paragraph.type === 'list'">
                                 <ul class="pt-3 pb-3">
