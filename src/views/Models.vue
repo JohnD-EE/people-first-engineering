@@ -37,7 +37,7 @@ import jugglingGlassOrRubberBalls from '../data/models/jugglingGlassOrRubberBall
 import brooksLaw from '../data/models/brooksLaw.js'
 import buildSystemsNotGoals from '../data/models/buildSystemsNotGoals.js'
 import chestertonsFence from '../data/models/chestertonsFence.js'
-import conwaysLaw from '../data/models/brooksLaw.js'
+import conwaysLaw from '../data/models/conwaysLaw.js'
 import cynefinFramework from '../data/models/cynefinFramework.js'
 import dramaTriangle from '../data/models/dramaTriangle.js'
 import firstPrinciples from '../data/models/firstPrinciples.js'

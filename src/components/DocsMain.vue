@@ -73,8 +73,13 @@
                         <span v-if="type === 'protocol'">{{s + 1}}. </span>{{section.name}}</h4>
                         <div 
                         v-for="(paragraph, p) in section.paragraphs"
-                        :key="p">                       
-                        <p class="body-2 mb-3 ml-5" v-if="typeof paragraph === 'string'"><span v-if="type === 'protocol'">{{s + 1}}.{{p + 1}} </span>{{paragraph}}</p>
+                        :key="p">
+                        <v-row align="start" justify="start">
+                        <v-col cols="1">
+                            <span v-if="type === 'protocol'">{{s + 1}}.{{p + 1}}</span>
+                        </v-col>
+                        <v-col cols="11">                      
+                        <p class="mb-3 ml-5" v-if="typeof paragraph === 'string'">{{paragraph}}</p>
                         <span v-if="typeof paragraph === 'object'">
                             <span v-if="paragraph.type === 'list'">
                                 <ul class="pt-3 pb-3">
@@ -86,6 +91,8 @@
                                 </ul>
                             </span>
                         </span>
+                        </v-col>
+                        </v-row>
                     </div>
                     
                     </div>
